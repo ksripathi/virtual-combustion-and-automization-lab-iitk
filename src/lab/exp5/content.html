@@ -1,0 +1,463 @@
+<!-- This file needs to be edited by the lab developer to suit
+the requirements of their lab in particular.-->
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+
+<body>
+    <div id="experiment">
+        <!-- The Experiment Document Container-->
+        <!-- The lab Header contains the logo and the name of the lab,
+  usually displayed on the top of the page-->
+
+        <header class="default" id="experiment-header">
+            <div class="logo" id="experiment-header-logo">
+            <!-- Enclose the logo image of your lab or write it in 
+      text-->
+            <img src="../images/logo.jpg"></div>
+
+            <div class="heading" id="experiment-header-heading">
+                <!-- Write the name of your lab and link it to the home 
+      page of your lab (h1 tag is preferred while writing your 
+      lab name)-->
+                <a href="../index.html">Virtual Combustion and Atomization (VCA) Lab</a>
+            </div><!-- Add any additional element you want to add to the lab 
+    header, For example : Help (Enclosing them with suitable 
+    div is recommended)-->
+        </header><!-- The lab article is the main content area where all the 
+  experiment content sits-->
+
+        <article id="experiment-article">
+            <!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+
+            <div class="breadcrumb" id="experiment-article-breadcrumb"></div>
+
+            <header class="heading" id="experiment-article-heading">
+                Measurement of turbulent inverse diffusion flame height  
+            </header><!-- Navigation menu is useful to organize the view of 
+      multiple sections inside the article-->
+
+            <nav class="default" id="experiment-article-navigation">
+                <ul id="experiment-article-navigation-menu">
+                    <!-- The menu can be dynamically generated to contain 
+          the headings of your sections or instead write the 
+          menu items of your choice individually enclosedu in 
+          &lt;li&gt; tag as shown below-->
+                </ul>
+            </nav><!-- All the sections of your lab or experiment can be 
+      enclosed together with a div element as shown below-->
+
+            <div id="experiment-article-sections">
+                <!-- First section of the article-->
+
+                <section id="experiment-article-section-1">
+                    <div class="icon" id="experiment-article-section-1-icon">
+                    <!-- Enclose the icon image of your lab -->
+                    <img src="../images/introduction.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+          div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-1-heading">
+                        Aim
+                    </div><!-- Write the section content inside a paragraph 
+          element, You can also include images with &lt;img&gt; tag -->
+                    <div class="content" id=
+                    "experiment-article-section-1-content">
+                        <div class="divContent">
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>To appreciate the importance of Inverse Diffusion Flame (IDF).</li><br>
+                            <li>To observe the variation in the flame height of turbulent LPG�air IDF with Momentum Ratio <i>(MR)</i>.</li><br>
+                            <li>To obtain a correlation between Momentum Ratio <i>(MR)</i> and the flame height of turbulent LPG�air IDF.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+                        </div>
+                    </div>
+                </section><!-- Second section of the article-->
+
+                <section id="experiment-article-section-2">
+                    <div class="icon" id="experiment-article-section-2-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/theory.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-2-heading">
+                        Intro
+                    </div><!-- Write the section content inside a paragraph 
+        element, we can also include images with &lt;img&gt; tag -->
+
+                    <div class="content" id="experiment-article-section-2-content">
+                        <div class="divContent">
+                            <h2>What is an inverse jet diffusion flame?</h2>
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <p style="color:#cc3300;">
+                            A special kind of <b>non-premixed flame</b> established when high velocity central air jet surrounded by low velocity annular fuel jet is ignited.
+                            </p>
+                            </span>
+                            </span>
+
+                            <br><br>
+
+                            <h2>Advantageous properties of IDF:</h2>
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>Low soot volume fraction.</li><br> 
+                            <li>Better mixing at higher air�fuel momentum ratio due to the port arrangement.</li><br>
+                            </ul>
+                            </p>
+                            </span>
+                            </span>
+                            <img src="../images/picture26.jpg" height="300" width="700px" align="center">
+
+                            <br><br>
+                            <h2>Comparison between NDF and IDF</h2>
+                            <br><br>
+                            <img src="../images/picture27.jpg" height="350" width="600" align="center">
+
+                            <br><br>
+
+                            <h2>Applications</h2>
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>Produces less soot and can find application in gas turbine combustors and rockets etc. where radiation heat transfer needs to be minimized.</li><br>
+                            <li>The port arrangement in IDF configuration can aid in better air-fuel mixing as high momentum central air jet can entrain and mix the low momentum annular fuel jet effectively.</li><br>
+                            <li>IDF can be used as a benchmark flame for studying initial mechanism of  soot formation as it forms incipient or young soot in the exhaust.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+            			</div>
+                    </div><br>
+                </section>
+
+                <section id="experiment-article-section-3">
+                    <div class="icon" id="experiment-article-section-3-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/procedure.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-3-heading">
+                        Procedure
+                    </div>
+
+                    <div class="content" id="experiment-article-section-3-content">
+			            <div claass="divContent">				
+			                <h2>Experimental Setup</h2>
+                            <br><br>
+                            <img src="../images/picture25.jpg" height="400" width="600px" align="center">
+
+                            <br><br>
+
+                            <h2>Experimental Procedure</h2>
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>The fuel is passed through the annular port of the coaxial burner and the air is fed through the central tube.</li><br> 
+                            <li>The velocity of the air and fuel jets is measured using a pitot probe and micro-manometer.</li><br>
+                            <li>The digital camera has to be positioned at a distance where the flame of maximum height can be captured in order to have a constant magnification.</li><br>
+                            <li>The camera should be aligned perpendicular to the front plane of the burner. Once the camera position is fixed, it should not be disturbed or moved to new position in order to avoid variation in magnification from one case to another.</li><br> 
+                            <li>The fuel is set to the desired flow rate using calibrated rotameter and ignited at the tube exit. The air jet velocity is changed using the needle valve to set the desired <i>MR</i>.</li><br> 
+                            <li>The video is taken at a preset <i>MR</i> for certain time.</li><br> 
+                            <li>The experiment is repeated for different <i>MR</i>.</li><br> 
+                            <li>The time period of video for each case should be kept constant in order  to extract equal number of frames from the videos.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+            			</div>
+		            </div>
+		    </section>
+
+                <section id="experiment-article-section-4">
+                    <div class="icon" id="experiment-article-section-4-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/sim.jpg"></div>
+
+                    <div class="heading" id="experiment-article-section-4-heading">
+                        Results
+                    </div>
+
+                    <div class="content" id="experiment-article-section-4-content">
+                        <div class="divContent">                         
+                            <h2>Image Processing</h2>
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>The flame videos obtained are converted to frames using video to still image convertor software.</li><br> 
+                            <li>The frames are analyzed using image processing software called <b>ImageJ</b>. The still images of the flame are processed by various techniques such as <b>Enhance contrast</b> and <b>Edge detection</b> for exact identification of flame tip from the nozzle rim.</li><br>
+                            <li>The number of pixels of the flame image in the vertical direction along the centerline from the burner rim to the point where the flame is visible is counted and is scaled with the known dimension, say, burner rim diameter to obtain the exact flame height.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+
+                            <br><br>
+                            <h2>Variation of flame height with <i>MFR</i> for LPG-air IDF</h2>
+                            <br><br>
+                            <img src="../images/res5.jpg" height="350" width="900" align="center">
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <p style="color:#cc3300;"> 
+                            <br>
+                            Flame height decreases with an increase in the Momentum Ratio (<i>MR</i>).
+                            </p>
+                            </span>
+                            </span>
+
+                            <br><br>
+
+                            <h2>Visible Flame Appearance with <i>MR</i> for LPG-air IDF</h2>
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <img src="../images/res8.jpg" height="400" width="300" align="right">
+                            <li>Momentum ratio (<i>MR</i>) is defined as the ratio of momentum between air jet and the momentum of fuel jet.</li><br>
+                            <img src="../images/res6.jpg" height="100" width="700" align="center">
+
+                            <li>The flame can be divided in two zones namely 
+                            <ol>
+                            <li>blue zone</li> 
+                            <li>luminous zone (see figure)</li>
+                            </ol>
+                            </li><br> 
+
+                            <li>The blue emission is due to the radiation from excited CH* radicals in the premixed region at the flame base [1].</li><br>
+                            <li>The luminous zone is yellow due to the radiation from soot (carbon) particles.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+                            <h2>Calculation of Visible Flame Height</h2>
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <p style="color:#cc3300;">
+                            Sample calculation for obtaining the visible flame height of turbulent LPG � air IDF for MR = 68.77 from single snapshot (see figure).</li><br> 
+                            <img src="../images/res7.jpg" height="400" width="300" align="center">
+                            <ul style="color:#cc3300;">
+                            <li>The number of pixels in the vertical direction (along the centerline)  from the burner rim to the point where the flame is visible (<i>h</i>) = 180 pixels</li><br>
+                            <li>Number of pixels of the burner diameter in the snapshot (<i>x</i>) = 7 pixels</li><br>
+                            <li>Actual dimension of the burner diameter (<i>d<sub>f</sub></i>) = 21 mm</li><br>
+                            <li>Scaling of the actual flame height (<i>H<sub>f</sub></i>) becomes</li><br>
+                            <img src="../images/res1.jpg" height="400" width="300" align="center"> 
+                            <li>Therefore, actual visible flame height can be obtained from the above expression as</li><br> 
+                            <img src="../images/res2.jpg" height="400" width="300" align="center">
+                            </ul>
+                            </p>
+                            </span>
+                            </span>
+
+                            <br><br>
+
+                            <h2>Temporal Variation of Visible Flame</h2>
+                            <br><br>
+                            <img src="../images/res3.jpg" height="350" width="900" align="center">
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>Variation in visible flame height with time for MR = 66.77 is shown (see above figure).</li><br>
+                            <li>Undulations of the flame tip is observed from the time resolved images.</li><br>
+                            <li>The flame tip fluctuations occur due to buoyancy induced vortices shedding around it.</li><br>
+                            <li>As a result of local quenching, detached flame can be observed sometimes at the flame tip.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+                            <br><br>
+                            <h2>Error Analysis of Visible Flame Height</h2>
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>Mean flame height (H<sub>fm</sub>) is obtained from the average of the actual visible flame height of N flame images taken for analysis.</li><br>
+                            <img src="../images/res11.jpg" height="350" width="900" align="center">
+                            <li>The deviation from the mean flame height is obtained using the following formula
+                            <img src="../images/res12.jpg" height="350" width="900" align="center">
+                            s: standard deviation of the flame height obtained from flame snapshots<br>
+                            H<sub>fi</sub>: flame height of the i</sup>th</sup> image<br>
+                            i: index varying from 1 to N<br>
+                            H<sub>fm</sub>: mean flame height<br>
+                            N: total number of flame images (26 in the present experiment)<br>
+
+                            Flame height is reported as
+                            <img src="../images/res11.jpg" height="50" width="80" align="center">
+                            </li><br>
+                            </span>
+                            </span>
+                            <br>
+                            <h>Sample Calculation for Visible Flame Height</h>
+                            <br><br>
+                            <img src="../images/res14.jpg" height="500" width="800" align="center">
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>Sample calculation for obtaining the visible flame height of turbulent LPG�air IDF for <i>MR</i> = 68.775 from 5 flame snapshots is shown.</li><br>
+                            <li>A total of 26 snapshots were processed for finding the visible flame height at a particular <i>MR</i> in the present study.</li><br>
+                            </span>
+                            </span>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-5">
+                    <div class="icon" id="experiment-article-section-5-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/simulation.jpg"></div>
+
+                    <div class="heading" id="experiment-article-section-5-heading">
+                        Simulation
+                    </div>
+
+                    <div class="content" id="experiment-article-section-5-content">
+                        <div class="divContent">
+            			</div>
+    	    	    </div>
+                </section>
+
+                <section id="experiment-article-section-6">
+                    <div class="icon" id="experiment-article-section-6-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/eval.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-6-heading">
+                        Conclusions
+                    </div>
+
+                    <div class="content" id="experiment-article-section-6-content">
+                        <div class="divContent">
+                            <br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>Basic characteristics of IDF are explained with its applications.</li><br>
+                            <li>The visible appearance of the flame can be divided broadly into two zones
+                            <br> 
+                            (i) Blue zone 
+                            <br>
+                            (ii) Luminous zone.</li><br> 
+                            <li>The blue zone height increases with MR together with a reduction in luminous zone height. This can be attributed to the better entrainment and mixing of annular jet by intense turbulence generated by the central air jet.</li><br> 
+                            <li>A linear empirical relationship is obtained between the non-dimensional flame height and MR which will be useful in the preliminary design of compact IDF based combustion systems.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-7">
+                    <div class="icon" id="experiment-article-section-7-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/Precautions.jpg"></div>
+
+                    <div class="heading" id="experiment-article-section-7-heading">
+                        Precautions
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-7-content">
+                        <div class="divContent">
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>Ensure that the fuel line is leak proof.</li><br> 
+                            <li>Experiments should be conducted in a ventilated room.</li><br>
+                            <li>Keep a fire extinguisher near the experimental setup.</li><br>
+                            <li>Ensure that the needle valves are functioning properly.</li><br>
+                            <li>The fuel flow rate has to be set to a minimum value initially using the needle valve and ignited at the burner exit.</li><br>
+                            <li>The fuel supply has to be stopped when the fuel jet is not getting ignited for a longer time. Then the burner has to be purged with air to avoid accumulation of unburnt fuel getting ignited in an uncontrolled way.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-8">
+                    <div class="icon" id="experiment-article-section-8-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/feedback.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-8-heading">
+                        FAQs
+                    </div>
+
+                    <div class="content" id="experiment-article-section-8-content">
+                        <div class="divContent">
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>What is an inverse diffusion flame?</li><br>
+                            <li>Whether the flame observed in kitchen gas stove a premixed or inverse diffusion flame? Explain it.</li><br>
+                            <li>Why does the luminosity of IDF change from yellow to blue color with increase in air jet velocity?</li><br>
+                            <li>Explain the mechanism of buoyancy induced vortices shedding around the flame tip.</li><br>
+                            <li>Define flame quenching.</li><br>
+                            <li>What is linear regression analysis?</li><br>
+                            <li>What is the need for error analysis while handling experimental data?</li><br>
+                            </ul>
+                            </span>
+                            </span>
+            			</div>
+                    </div>
+                </section>
+		
+		<section id="experiment-article-section-9">
+                    <div class="icon" id="experiment-article-section-9-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/books.jpg"></div>
+                    <div class="heading" id="experiment-article-section-9-heading">
+			References                        
+                    </div>
+                    <div class="content" id="experiment-article-section-9-content">
+            			<div class="divContent">
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>Gaydon, A. Spectroscopy of Flames.Springer, 1974.</li><br>
+                            <li>Mishra, D.P., Fundamentals of Combustion. Prentice Hall of India private Ltd, 2010.</li><br>
+                            <li>Sze, L.K., Cheung, C.S., Leung, C.W. Appearance, temperature and NO<sub>X</sub> emission of two inverse diffusion flames with different port design, Combust. Flame. 2006 ,V.144, pp. 237-248.</li><br> 
+                            <li>Sobiesiak, A. and Wenzell, J.C. Characteristics and structure of inverse flame of natural gas, Proc. Combust. Inst, 2005, V.30, pp. 743-749.</li><br> 
+                            <li>Mahesh, S. and Mishra, D.P.  Stability and emission characteristics of turbulent LPG IDF in a backstep burner, Fuel, 2008, V.87, pp. 2614-2619.</li><br> 
+                            <li>Mahesh, S. and Mishra, D.P. Flame structure of LPG � air Inverse Diffusion Flame in a backstep burner, Fuel, 2010, V. 89, pp. 2145�2148.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+            			</div>
+        		    </div>
+		</section>
+            </div>
+        </article>
+	
+
+        <footer  class="footer">
+            <!-- Put the content here -->
+            <div style="margin-left:40%; margin-right:40% ">
+            <a href="../license/index.html" target="_blank" style="margin:auto"> Licensing Terms </a>
+            </div>
+      </footer> 
+    </div>
+</body>
+</html>

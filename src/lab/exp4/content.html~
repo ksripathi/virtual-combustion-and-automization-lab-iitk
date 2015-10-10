@@ -1,0 +1,444 @@
+<!-- This file needs to be edited by the lab developer to suit
+the requirements of their lab in particular.-->
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+
+<body>
+    <div id="experiment">
+        <!-- The Experiment Document Container-->
+        <!-- The lab Header contains the logo and the name of the lab,
+  usually displayed on the top of the page-->
+
+        <header class="default" id="experiment-header">
+            <div class="logo" id="experiment-header-logo">
+            <!-- Enclose the logo image of your lab or write it in 
+      text-->
+            <img src="../images/logo.jpg"></div>
+
+            <div class="heading" id="experiment-header-heading">
+                <!-- Write the name of your lab and link it to the home 
+      page of your lab (h1 tag is preferred while writing your 
+      lab name)-->
+                <a href="../index.html">Virtual Combustion and Atomization (VCA) Lab</a>
+            </div><!-- Add any additional element you want to add to the lab 
+    header, For example : Help (Enclosing them with suitable 
+    div is recommended)-->
+        </header><!-- The lab article is the main content area where all the 
+  experiment content sits-->
+
+        <article id="experiment-article">
+            <!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+
+            <div class="breadcrumb" id="experiment-article-breadcrumb"></div>
+
+            <header class="heading" id="experiment-article-heading">
+                Observations on flame height of a laminar jet diffusion flame 
+            </header><!-- Navigation menu is useful to organize the view of 
+      multiple sections inside the article-->
+
+            <nav class="default" id="experiment-article-navigation">
+                <ul id="experiment-article-navigation-menu">
+                    <!-- The menu can be dynamically generated to contain 
+          the headings of your sections or instead write the 
+          menu items of your choice individually enclosedu in 
+          &lt;li&gt; tag as shown below-->
+                </ul>
+            </nav><!-- All the sections of your lab or experiment can be 
+      enclosed together with a div element as shown below-->
+
+            <div id="experiment-article-sections">
+                <!-- First section of the article-->
+
+                <section id="experiment-article-section-1">
+                    <div class="icon" id="experiment-article-section-1-icon">
+                    <!-- Enclose the icon image of your lab -->
+                    <img src="../images/introduction.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+          div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-1-heading">
+                        Aim
+                    </div><!-- Write the section content inside a paragraph 
+          element, You can also include images with &lt;img&gt; tag -->
+                    <div class="content" id=
+                    "experiment-article-section-1-content">
+                        <div class="divContent">
+			                <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>To have an appreciation of jet diffusion flame.</li><br>
+                            <li>To understand the concept of laminar jet diffusion flame height.</li><br>
+                            <li>To derive a relation between laminar jet diffusion flame height and volumetric fuel flow rate through phenomenological analysis.</li><br>
+                            <li>To observe the effect of volumetric fuel flow rate on laminar jet diffusion flame height through experiments.</li><br> 
+                            <li>To compare the experimental results with Roper’s empirical formula.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+                        </div>
+                    </div>
+                </section><!-- Second section of the article-->
+
+                <section id="experiment-article-section-2">
+                    <div class="icon" id="experiment-article-section-2-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/theory.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-2-heading">
+                        Intro
+                    </div><!-- Write the section content inside a paragraph 
+        element, we can also include images with &lt;img&gt; tag -->
+
+                    <div class="content" id="experiment-article-section-2-content">
+                        <div class="divContent">
+                            <h2>Classification of flame types</h2>
+                                <br><br>
+                                <img src="../images/picture39.jpg" height="350" width="600" align="center">
+
+                                <br><br>
+
+                                <h2>Examples of diffusion flame</h2>
+                                <br><br>
+                                <img src="../images/picture40.jpg" height="250" width="500" align="center">
+
+                                <br><br>
+
+                                <h2>Applications</h2>
+                                <br><br>
+                                <span style="font-family: calibri;">
+                                <span style="font-size: 1.5em;">
+                                <ul style="color:#cc3300;">
+                                <li>Flame inside furnaces</li><br>
+                                <li>Gas turbine  engines</li><br>
+                                <li>Rocket combustors</li><br>
+                                </ul>
+                                </span>
+                                </span>
+
+                                <br>
+
+                                <h2>Diffusion flame structure</h2>
+                                <br><br>
+                                <span style="font-family: calibri;">
+                                <span style="font-size: 1.5em;">
+                                <ul style="color:#cc3300;">
+                                <li>Fuel and oxidizer are initially segregated before combustion.</li><br>
+                                <li>They are brought into contact in a narrow region through molecular diffusion and bulk convective motion where they mix and react simultaneously.</li><br>
+                                </ul>
+                                </span>
+                                </span>
+                                <img src="../images/picture41.jpg" height="350" width="500" align="center">
+            			</div>
+                    </div><br>
+                </section>
+
+                <section id="experiment-article-section-3">
+                    <div class="icon" id="experiment-article-section-3-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/objective.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-3-heading">
+                        Theory
+                    </div>
+
+                    <div class="content" id="experiment-article-section-3-content">
+			            <div claass="divContent">				
+			                <h2>Laminar jet diffusion flame</h2>
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>A jet diffusion flame can be established by igniting a fuel jet issuing into ambient air.</li><br>
+                            <li>The visible flame height is the distance from the flame base near the burner rim to the highest point along the jet axis up to which the flame is visible.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+                            <img src="../images/picture43.jpg" height="250" width="550" align="center">
+
+                            <br><br>
+
+                            <h2>Phenomenological analysis</h2>
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <p style="color:#cc3300;">
+                            Physically, flame height of Jet Diffusion Flame specifies the maximum distance taken by the fuel along the centerline to diffuse into oxidizer and get consumed completely.
+                            <br>
+                            The time taken (td ) by the fuel jet to diffuse into ambient air and get burned completely is given by
+                            <img src="../images/picture44.jpg" height="50" width="80" align="center">
+                            (1)
+                            <img src="../images/picture52.jpg" height="250" width="250" align="right">
+                            <br>
+                            where Hf : flame height, VF: velocity of fuel jet at the burner exit                                                   
+                            The average square displacement (r2) due to fuel-oxidizer 
+                            inter-diffusion  (DFO) as per Einstein diffusion equation is given by 
+                            <img src="../images/picture45.jpg" height="40" width="120" align="center">
+                            (2)                                                                                                                       
+                            <br>
+                            At the flame tip, the average depth of oxidizer-fuel inter-diffusion layer 
+                            is approximately equal to burner radius R. Hence r ~ R
+                            <img src="../images/picture46.jpg" height="70" width="120" align="center">
+                            (3)
+                            <br>
+                            Multiplying numerator and denominator of Eq. (3) by ?, we get
+                            <img src="../images/picture47.jpg" height="70" width="130" align="center">
+                            (4)
+                            <br>
+                            Multiplying numerator and denominator of Eq. (4) by density of fuel (?F), we get
+                            <img src="../images/picture48.jpg" height="70" width="130" align="center">
+                            (5) 
+                            <br>
+                            But 
+                            <img src="../images/picture49.jpg" height="40" width="120" align="center">
+                            <img src="../images/picture50.jpg" height="40" width="120" align="center">
+                            <img src="../images/picture51.jpg" height="70" width="120" align="center">
+                                 
+                            <b>It can be observed clearly that the laminar jet flame height is proportional to volumetric fuel flow rate.</b>
+                            </p>
+                            </span>
+                            </span>
+            			</div>
+		    </div>
+		</section>
+
+                <section id="experiment-article-section-4">
+                    <div class="icon" id="experiment-article-section-4-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/procedure.jpg"></div>
+
+                    <div class="heading" id="experiment-article-section-4-heading">
+                        Procedure
+                    </div>
+
+                    <div class="content" id="experiment-article-section-4-content">
+                        <div class="divContent">
+                            <h2>Experimental Setup</h2>
+                            <br><br>
+                            <img src="../images/picture42.jpg" height="400" width="700" align="center">
+
+                            <br><br><br><br>
+
+                            <h2>Experimental Procedure</h2>
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>The CCD camera has to be positioned at a distance where the flame of maximum height can be captured. The camera should be aligned perpendicular to the front plane of the flame.</li><br>
+                            <li>Once the camera position is fixed, it should not be disturbed or moved to a new position in order to avoid variable magnification.</li><br>
+                            <li>CNG fuel is set to the desired flow rate using calibrated rotameter and ignited at the tube exit.</li><br> 
+                            <li>At a particular fuel flow rate, video of the flame should be taken for certain time.</li><br>
+                            <li>This procedure is repeated for different fuel flow rates.</li><br>
+                            <li>The time period of video for each flame should be kept constant in order to extract equal number of frames from the videos.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-5">
+                    <div class="icon" id="experiment-article-section-5-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/sim.jpg"></div>
+
+                    <div class="heading" id="experiment-article-section-5-heading">
+                        Results
+                    </div>
+
+                    <div class="content" id="experiment-article-section-5-content">
+                        <div class="divContent">
+                            <h2>Laminar jet diffusion flame</h2>
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>A jet diffusion flame can be established by igniting a fuel jet issuing into ambient air.</li><br>
+                            <li>The visible flame height is the distance from the flame base near the burner rim to the highest point along the jet axis up to which the flame is visible.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+                            <img src="../images/picture43.jpg" height="250" width="550" align="center">
+
+                            <br><br>
+                            <h2>Phenomenological analysis</h2>
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <p style="color:#cc3300;">
+                            Physically, flame height of Jet Diffusion Flame specifies the maximum distance taken by the fuel along the centerline to diffuse into oxidizer and get consumed completely.
+                            <br>
+                            The time taken (td ) by the fuel jet to diffuse into ambient air and get burned completely is given by
+                            <img src="../images/picture44.jpg" height="50" width="80" align="center">
+                            (1)
+                            <img src="../images/picture52.jpg" height="250" width="250" align="right">
+                            <br>
+                            where H<sub>f</sub> : flame height, V<sub>F</sub>: velocity of fuel jet at the burner exit                                                   
+                            The average square displacement (r<sup>2</sup>) due to fuel-oxidizer 
+                            inter-diffusion  (D<sub>FO</sub>) as per Einstein diffusion equation is given by 
+                            <img src="../images/picture45.jpg" height="40" width="120" align="center">
+                            (2)                                                                                                                       
+                            <br>
+                            At the flame tip, the average depth of oxidizer-fuel inter-diffusion layer 
+                            is approximately equal to burner radius R. Hence r ~ R
+                            <img src="../images/picture46.jpg" height="70" width="120" align="center">
+                            (3)
+                            <br>
+                            Multiplying numerator and denominator of Eq. (3) by ?, we get
+                            <img src="../images/picture47.jpg" height="70" width="130" align="center">
+                            (4)
+                            <br>
+                            Multiplying numerator and denominator of Eq. (4) by density of fuel (?F), we get
+                            <img src="../images/picture48.jpg" height="70" width="130" align="center">
+                            (5) 
+                            <br>
+                            But 
+                            <img src="../images/picture49.jpg" height="40" width="120" align="center">
+                            <img src="../images/picture50.jpg" height="40" width="120" align="center">
+                            <img src="../images/picture51.jpg" height="70" width="120" align="center">                             
+                            <b>It can be observed clearly that the laminar jet flame height is proportional to volumetric fuel flow rate.</b>
+                            </p>
+                            </span>
+                            </span>
+            			</div>
+    	    	    </div>
+                </section>
+
+                <section id="experiment-article-section-6">
+                    <div class="icon" id="experiment-article-section-6-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/precautions.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-6-heading">
+                        Precautions
+                    </div>
+
+                    <div class="content" id="experiment-article-section-6-content">
+                        <div class="divContent">
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>Ensure that the fuel line is leak proof.</li><br> 
+                            <li>Experiments should be conducted in a ventilated room.</li><br>
+                            <li>Keep a fire extinguisher near the experimental setup.</li><br>
+                            <li>Switch on the exhaust fan before conducting experiments.</li><br>
+                            <li>Ensure that the control valves are functioning properly.</li><br>
+                            <li>The fuel flow rate has to be set to a minimum value initially using the control valve and ignited at the burner exit with the help of an igniter.</li><br>
+                            <li>The fuel supply has to be stopped when the fuel jet is not getting ignited for a considerable time. Then the burner should be purged with air to avoid accumulation of unburnt fuel.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-7">
+                    <div class="icon" id="experiment-article-section-7-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/eval.jpg"></div>
+
+                    <div class="heading" id="experiment-article-section-7-heading">
+                        Conclusions
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-7-content">
+                        <div class="divContent">
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>Experiments show that visible height of laminar jet diffusion flame increases with fuel flow rate.</li><br> 
+                            <li>Phenomenological considerations show that visible flame height of laminar jet diffusion flame increases linearly with fuel flow rate.</li><br>
+                            <li>Experimental verification of this relationship shows that it reasonably predicts the trend shown by experimental data.</li><br> 
+                            <li>Predictions of visible flame height from Roper’s relationship are generally smaller than the experimental data due to the assumed flame temperature <i>T<sub>f</sub></i>.</li><br> 
+                            <li>Roper’s formula is however likely to give more accurate predictions of flame height in accordance with the phenomenological analysis, especially at lower fuel flow rates.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-8">
+                    <div class="icon" id="experiment-article-section-8-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/feedback.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-8-heading">
+                        FAQs
+                    </div>
+
+                    <div class="content" id="experiment-article-section-8-content">
+                        <div class="divContent">
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>What is a flame? How the flames are classified?</li><br>
+                            <li>Differentiate between Deflagration and Detonation waves?</li><br>
+                            <li>What is a diffusion flame?</li><br>
+                            <li>Whether the flame observed in kitchen gas stove a diffusion  flame or not? Explain.</li><br>
+                            <li>What causes the yellow radiation in diffusion flames?</li><br>
+                            <li>Explain the dependence of visible flame height of laminar diffusion flame on fuel flow rate?</li><br>
+                            </ul>
+                            </span>
+                            </span>
+            			</div>
+                    </div>
+                </section>
+		
+		<section id="experiment-article-section-9">
+                    <div class="icon" id="experiment-article-section-9-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/books.jpg"></div>
+                    <div class="heading" id="experiment-article-section-9-heading">
+			References                        
+                    </div>
+                    <div class="content" id="experiment-article-section-9-content">
+            			<div class="divContent">
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>D. P. Mishra, <i>“Fundamentals of Combustion”</i> Prentice Hall of India, 2010.</li><br>
+                            <li>F. G. Roper, C. Smith, A.C. Cunningham, <i>“The prediction of laminar jet diffusion flame sizes: Part II. Experimental verification”</i>, Combust. Flame, 29 (1977), pp. 227-234.</li><br>
+                            <li>http://www.absoluteastronomy.com/topics/Diffusion_flame</li><br>
+                            <li>http://www.1st-digitalcamera.com/camera-tripod/</li><br>
+                            <li>http://www.eng.cam.ac.uk/~sh372/facilities/index-facilities.html</li><br>
+                            <li>ImageJ software: http://rsbweb.nih.gov/ij/</li><br>
+                            </ul>
+                            </span>
+                            </span>
+            			</div>
+        		    </div>
+		</section>
+            </div>
+        </article>
+	
+
+        <footer  class="footer">
+            <!-- Put the content here -->
+            <div style="margin-left:40%; margin-right:40% ">
+            <a href="../license/index.html" target="_blank" style="margin:auto"> Licensing Terms </a>
+            </div>
+      </footer> 
+    </div>
+</body>
+</html>

@@ -1,0 +1,421 @@
+<!-- This file needs to be edited by the lab developer to suit
+the requirements of their lab in particular.-->
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+
+<body>
+    <div id="experiment">
+        <!-- The Experiment Document Container-->
+        <!-- The lab Header contains the logo and the name of the lab,
+  usually displayed on the top of the page-->
+
+        <header class="default" id="experiment-header">
+            <div class="logo" id="experiment-header-logo">
+            <!-- Enclose the logo image of your lab or write it in 
+      text-->
+            <img src="../images/logo.jpg"></div>
+
+            <div class="heading" id="experiment-header-heading">
+                <!-- Write the name of your lab and link it to the home 
+      page of your lab (h1 tag is preferred while writing your 
+      lab name)-->
+                <a href="../index.html">Virtual Combustion and Atomization (VCA) Lab</a>
+            </div><!-- Add any additional element you want to add to the lab 
+    header, For example : Help (Enclosing them with suitable 
+    div is recommended)-->
+        </header><!-- The lab article is the main content area where all the 
+  experiment content sits-->
+
+        <article id="experiment-article">
+            <!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+
+            <div class="breadcrumb" id="experiment-article-breadcrumb"></div>
+
+            <header class="heading" id="experiment-article-heading">
+                Measurement of droplet size for an air-blast atomizer 
+            </header><!-- Navigation menu is useful to organize the view of 
+      multiple sections inside the article-->
+
+            <nav class="default" id="experiment-article-navigation">
+                <ul id="experiment-article-navigation-menu">
+                    <!-- The menu can be dynamically generated to contain 
+          the headings of your sections or instead write the 
+          menu items of your choice individually enclosedu in 
+          &lt;li&gt; tag as shown below-->
+                </ul>
+            </nav><!-- All the sections of your lab or experiment can be 
+      enclosed together with a div element as shown below-->
+
+            <div id="experiment-article-sections">
+                <!-- First section of the article-->
+
+                <section id="experiment-article-section-1">
+                    <div class="icon" id="experiment-article-section-1-icon">
+                    <!-- Enclose the icon image of your lab -->
+                    <img src="../images/introduction.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+          div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-1-heading">
+                        Aim
+                    </div><!-- Write the section content inside a paragraph 
+          element, You can also include images with &lt;img&gt; tag -->
+                    <div class="content" id=
+                    "experiment-article-section-1-content">
+                        <div class="divContent">
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>To characterize the performance of air-assist atomizer in terms of droplet diameter and droplet size distribution.</li><br>
+                            <li>Investigate the effects of gas and liquid mass flow rates on the droplet size.</li><br>
+                            <li>Measure the average droplet size achieved in an air-assisted spray.</li><br>
+                            <li>Study the droplet size distribution downstream of the atomizer orifice.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+                        </div>
+                    </div>
+                </section><!-- Second section of the article-->
+
+                <section id="experiment-article-section-2">
+                    <div class="icon" id="experiment-article-section-2-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/theory.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-2-heading">
+                        Intro
+                    </div><!-- Write the section content inside a paragraph 
+        element, we can also include images with &lt;img&gt; tag -->
+
+                    <div class="content" id="experiment-article-section-2-content">
+                        <div class="divContent">
+                            <br><br>
+                            <img src="./images/91.jpg" height="400" width="700" align="center">
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li><b>Atomization:</b> Generation of droplets through bulk liquid breakup.</li><br>
+                            <li><b>Atomize:</b> A kind of nozzle for achieving breakup of bulk liquid into spray.</li><br>
+                            <li><b>Spray:</b> Two-phase flow with liquid as discrete phase (droplets) and gas as continuous phase</li><br>
+                            </ul>
+                            </span>
+                            </span>
+            			</div>
+                    </div><br>
+                </section>
+
+                <section id="experiment-article-section-3">
+                    <div class="icon" id="experiment-article-section-3-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/theory.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-3-heading">
+                        Theory
+                    </div>
+
+                    <div class="content" id="experiment-article-section-3-content">
+			            <div claass="divContent">				
+                            <h2>Elements of atomization</h2>
+
+                            <br><br>
+
+                            <img src="./images/92.jpg" height="500" width="700" align="center">
+
+                            <br><br>
+
+                            <img src="./images/93.jpg" height="500" width="700" align="center">
+
+                            <br><br>
+
+                            <h2>Atomizer classification</h2>
+
+                            <br><br>
+
+                            <img src="./images/94.jpg" height="500" width="700" align="center">
+
+                            <br><br>
+
+                            <img src="./images/95.jpg" height="500" width="700" align="center">
+
+                            <br><br>
+
+                            <h2>Air-assist atomizer</h2>
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <p style="color:#cc3300;">
+                            Twin-fluid spray nozzle that employs air along with liquid for obtaining spray.
+                            </p>
+                            <br><br>
+                            <ul style="color:#cc3300;">
+                            <b>Advantages of air-assist atomizer</b>
+                            <li>Simple design.</li><br>
+                            <li>Produces nearly homogeneous spray.</li><br>
+                            <li>Fine droplets can be produced at low liquid injection pressures.</li><br>
+                            <li>Ensures thorough mixing of air and droplets.</li><br>
+                            <li>Very low soot production during combustion; reduction in flame radiation and exhaust smoke.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+
+                            <br>
+
+                            <h2>Some definitions</h2>
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <img src="./images/pi11.jpg" height="150" width="250" align="right">
+                            <li>Sauter Mean Diameter (<i>SMD</i>)
+                            <br><br>
+                            <img src="./images/pi99.jpg" height="100" width="200" align="center">
+                            </li><br>
+                            <br>
+                            <li>Gas-to-liquid ratio (<i>GLR</i>)
+                            <br><br>
+                            <img src="./images/pi98.jpg" height="50" width="100" align="center">
+                            </li><br>
+                            <br>
+
+                            <b>Importance of SMD</b>: Consumption of reactant mass is a volumetric process and evaporation is a surface phenomenon. 
+                            </ul>
+                            </span>
+                            </span>
+            			</div>
+		            </div>
+		    </section>
+
+                <section id="experiment-article-section-4">
+                    <div class="icon" id="experiment-article-section-4-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/procedure.jpg"></div>
+
+                    <div class="heading" id="experiment-article-section-4-heading">
+                        Procedure
+                    </div>
+
+                    <div class="content" id="experiment-article-section-4-content">
+                        <div class="divContent">                         
+                            <h2>Atomizer used for experiment</h2>
+                            <br><br>
+                            <img src="./images/pi12.jpg" height="400" width="600" align="center">
+                            <br><br>
+                            <h2>Experimental setup</h2>
+                            <br><br>
+                            <img src="./images/pi13.jpg" height="600" width="800" align="center">
+                            <br><br>
+
+
+
+                            <h2>Malvern Spraytec Analyzer</h2>
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li><b>Working principle</b>: Fraunhofer diffraction; line-of-sight measurement.</li><br>
+                            <li>Purging air is supplied at the transmitter and receiver ends to ensure dust-free collection of data, leading to reduction of errors.</li><br>
+                            <li>A 670 nm LASER beam from the transmitter to receiver end (containing rings), undergoes scattering when interrupted by spray particles.</li><br>
+                            <li>Droplet diameters (1 to 1000 �m) are determined based on the optical scattering pattern observed at the receiver end.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-5">
+                    <div class="icon" id="experiment-article-section-5-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/sim.jpg"></div>
+
+                    <div class="heading" id="experiment-article-section-5-heading">
+                        Results
+                    </div>
+
+                    <div class="content" id="experiment-article-section-5-content">
+                        <div class="divContent">
+                            <h2>Spray visualization</h2>
+                            <br><br>
+                            <b>Development stages of a spray</b>
+                            <iframe width="560" height="315" embed src="dev_stages.wmv" frameborder="0"></iframe>
+
+
+
+                            <br><br>
+
+                            <h2>SMD variation with <i>GLR</i></h2>
+                            <img src="./images/k14.jpg" height="500" width="700" align="center">
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li><i>SMD</i> decreased with <i>GLR</i> for a given axial distance (<i>Z<sub>R</sub></i>) downstream of orifice.</li><br>
+                            <li><i>SMD</i> at a given <i>GLR</i> decreased with <i>Z<sub>R</sub></i>.</li><br>
+                            <li>At higher <i>GLR</i>, increased momentum of air caused more turbulence, due to which <i>SMD</i> decreased drastically by collision and breakup of larger drops.</li><br>
+                            <li>Secondary atomization results in decreased droplet size at <i>Z<sub>R</sub></i> = 150 mm as compared to <i>Z<sub>R</sub></i> = 100 mm.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+
+                            <br><br>
+
+                            <h2>Droplet size distribution at <i>Z<sub>R</sub></i> = 150 mm</h2>
+                            <br><br>
+                            <img src="./images/k15.jpg" height="400" width="700" align="center">
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>Increase in the volume fraction occupied by particles of smaller <i>SMD</i> at higher <i>GLR</i>.</li><br>
+                            <li>Size distribution is increasingly skewed towards lower <i>SMD</i> as <i>GLR</i> increases.</li><br>
+                            <li>Earlier secondary atomization at higher <i>GLR</i> due to increased turbulence.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+
+                            <br><br>
+
+                            <h2>Effect of GLR on size distribution</h2>
+                            <br><br>
+                            <img src="./images/k16.jpg" height="400" width="700" align="center">
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>At a given <i>GLR</i>, increased secondary atomization at <i>Z<sub>R</sub></i> = 150 mm decreased the volume fraction of the largest droplet size.</li><br>
+                            <li>Higher <i>GLR</i> operation is able to reduce the volume fraction of largest droplet size more effectively.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+            			</div>
+    	    	    </div>
+                </section>
+
+                <section id="experiment-article-section-6">
+                    <div class="icon" id="experiment-article-section-6-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/eval.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-6-heading">
+                        Conclusions
+                    </div>
+
+                    <div class="content" id="experiment-article-section-6-content">
+                        <div class="divContent">
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li><i>SMD</i> decreases with increase in <i>GLR</i> accompanied by increased air momentum.</li><br>
+                            <li>For same <i>GLR</i>, droplet size decreases due to secondary atomization downstream of the atomizer.</li><br>
+                            <li>Droplet distribution is continuous but it is a resultant of many unimodal distributions.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-7">
+                    <div class="icon" id="experiment-article-section-7-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/Precautions.jpg"></div>
+
+                    <div class="heading" id="experiment-article-section-7-heading">
+                        Precautions
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-7-content">
+                        <div class="divContent">
+
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-8">
+                    <div class="icon" id="experiment-article-section-8-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/feedback.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-8-heading">
+                        FAQs
+                    </div>
+
+                    <div class="content" id="experiment-article-section-8-content">
+                        <div class="divContent">
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>Where and why do we need atomizers?</li><br>
+                            <li>What are the different stages of atomization?</li><br>
+                            <li>What are the different ways to achieve atomization?</li><br>
+                            <li>What are the fluid parameters that affect atomization?</li><br>
+                            <li>What is a twin-fluid atomizer?</li><br>
+                            <li>On what basis can an atomizer be characterized?</li><br>
+                            <li>Can these performance parameters be used to analyze any atomizer?</li><br>
+                            <li>Which performance parameter will aid better to infer a fine atomization, <i>SMD</i> or droplet size distribution?</li><br>
+                            <li>Why do we prefer <i>SMD</i> over other representative diameters?</li><br>
+                            </ul>
+                            </span>
+                            </span>
+            			</div>
+                    </div>
+                </section>
+		
+		<section id="experiment-article-section-9">
+                    <div class="icon" id="experiment-article-section-9-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/books.jpg"></div>
+                    <div class="heading" id="experiment-article-section-9-heading">
+            			References                        
+                    </div>
+                    <div class="content" id="experiment-article-section-9-content">
+            			<div class="divContent">
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>Huimin Liu, �Science and Engineering of Droplets�, Noyes Publication, Park Ridge, U.S.A.</li><br>
+                            <li>William A. Sirignano, �Fluid dynamics and transport of droplets and sprays�, University of California, Irvine.</li><br>
+                            <li>�Handbook of Atomization and sprays � Theory and Applications�, Springer.</li><br>
+                            <li>A. H. Lefebvre, �Air-blast atomization�, Progress in Energy and Combustion Science, Volume 6, Issue 3, 1980.</li><br>
+                            <li>K.U. Reddy & D.P.Mishra , � Studies of  Spray Behavior of a Pressure Swirl Atomizer in Transition Regime�, Journal of Propulsion and Power, 2007.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+
+            			</div>
+        		    </div>
+		</section>
+            </div>
+        </article>
+	
+
+        <footer  class="footer">
+            <!-- Put the content here -->
+            <div style="margin-left:40%; margin-right:40% ">
+            <a href="../license/index.html" target="_blank" style="margin:auto"> Licensing Terms </a>
+            </div>
+      </footer> 
+    </div>
+</body>
+</html>

@@ -1,0 +1,568 @@
+<!-- This file needs to be edited by the lab developer to suit
+the requirements of their lab in particular.-->
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+
+<body>
+    <div id="experiment">
+        <!-- The Experiment Document Container-->
+        <!-- The lab Header contains the logo and the name of the lab,
+  usually displayed on the top of the page-->
+
+        <header class="default" id="experiment-header">
+            <div class="logo" id="experiment-header-logo">
+            <!-- Enclose the logo image of your lab or write it in 
+      text-->
+            <img src="../images/logo.jpg"></div>
+
+            <div class="heading" id="experiment-header-heading">
+                <!-- Write the name of your lab and link it to the home 
+      page of your lab (h1 tag is preferred while writing your 
+      lab name)-->
+                <a href="../index.html">Virtual Combustion and Atomization (VCA) Lab</a>
+            </div><!-- Add any additional element you want to add to the lab 
+    header, For example : Help (Enclosing them with suitable 
+    div is recommended)-->
+        </header><!-- The lab article is the main content area where all the 
+  experiment content sits-->
+
+        <article id="experiment-article">
+            <!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+
+            <div class="breadcrumb" id="experiment-article-breadcrumb"></div>
+
+            <header class="heading" id="experiment-article-heading">
+                Measurement of laminar burning velocity
+            </header><!-- Navigation menu is useful to organize the view of 
+      multiple sections inside the article-->
+
+            <nav class="default" id="experiment-article-navigation">
+                <ul id="experiment-article-navigation-menu">
+                    <!-- The menu can be dynamically generated to contain 
+          the headings of your sections or instead write the 
+          menu items of your choice individually enclosedu in 
+          &lt;li&gt; tag as shown below-->
+                </ul>
+            </nav><!-- All the sections of your lab or experiment can be 
+      enclosed together with a div element as shown below-->
+
+            <div id="experiment-article-sections">
+                <!-- First section of the article-->
+
+                <section id="experiment-article-section-1">
+                    <div class="icon" id="experiment-article-section-1-icon">
+                    <!-- Enclose the icon image of your lab -->
+                    <img src="../images/introduction.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+          div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-1-heading">
+                        Aim
+                    </div><!-- Write the section content inside a paragraph 
+          element, You can also include images with &lt;img&gt; tag -->
+                    <div class="content" id=
+                    "experiment-article-section-1-content">
+                        <div class="divContent">
+                            <h2 style="color: Red;"><strong style=
+                            "text-decoration: underline"><span style=
+                            "font-family: arial,helvetica,sans-serif; color: rgb(255, 0, 0);">
+                            </span></strong></h2>
+
+                            <p>&nbsp;</p>
+
+                            <p class="MsoNormal" style=
+                            "line-height: 150%; text-align: right;"><a href=
+                            "../index.html"><span style="font-family: arial,helvetica,sans-serif; font-size: medium;">
+                            Back To Lab Homepage</span></a></p>
+
+                            <p>
+				<span style="font-family: calibri;">
+				<span style="font-size: 1.5em;">
+				<ul style="color:#cc3300;">
+				<li>To get a theoretical background of the premixed flame.</li><br>
+				<li>To estimate the laminar burning velocity of premixed compressed natural gas (CNG)-air flame from flame images.</li><br>
+				<li>To understand the role of equivalence ratio on the burning velocity.</li><br>
+				</ul>
+				</span>
+				</span>
+			   </p>
+
+                            <p>&nbsp;</p>
+
+                            <p>&nbsp;</p>
+
+                            <p>&nbsp;</p>
+
+                            <p>&nbsp;</p>
+
+                            <p><!-- p { margin-bottom: 0.21cm; } --></p>
+
+                            <p style="margin-bottom: 0cm;">&nbsp;</p>
+
+                            <p style="margin-bottom: 0cm;">&nbsp;</p>
+
+                            <p style="margin-bottom: 0cm;">&nbsp;</p>
+
+                            <p style="margin-bottom: 0cm;">&nbsp;</p>
+
+                            <p><span style=
+                            "font-family: arial,helvetica,sans-serif; font-size: medium; color: rgb(0, 0, 0);">
+                            <br></span></p>
+                        </div>
+                    </div>
+                </section><!-- Second section of the article-->
+
+                <section id="experiment-article-section-2">
+                    <div class="icon" id="experiment-article-section-2-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/theory.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-2-heading">
+                        Intro
+                    </div><!-- Write the section content inside a paragraph 
+        element, we can also include images with &lt;img&gt; tag -->
+
+                    <div class="content" id=
+                    "experiment-article-section-2-content">
+			<br><br>
+			<span style="font-family: calibri;">
+			<span style="font-size: 1.5em;">
+			<ul style="color:#cc3300;">
+			<li><b>Flame:</b> Spatial domain in which rapid exothermic chemical reactions take place producing heat and emitting light.</li><br>
+			<li><b>Premixed flame:</b> Fuel and oxidizer are mixed well at the molecular level before combustion.</li><br>
+			<li><b>Examples:</b></li><br>
+			</ul>
+			</span>
+			</span>
+			<img src="../images/ae_1.jpg" height="200" width="600" align="center">
+			<br><br>
+			<h2>General Introduction</h2>
+			<br><br>
+			<img src="../images/pf.jpg" height="400" width="650" align="center">
+                    </div><br>
+                </section>
+
+                <section id="experiment-article-section-3">
+                    <div class="icon" id="experiment-article-section-3-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/objective.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-3-heading">
+                        Theory
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-3-content">
+				<div style="background-image:url(images/content_bg.jpg);position: relative; margin:auto; width: 1024px; min-height:400px;">
+        <div id="contentBox" style=" padding:0px; padding-left:50px; padding-right:50px;">
+				<h2>1-D Premixed Flame</h2>
+				<br><br>
+				<img src="../images/11.jpg" height="220" width="300" align="center">
+				<br><br>
+				<span style="font-family: calibri;">
+				<span style="font-size: 1.5em;">
+				<ul style="color:#cc3300;">
+				<img src="../images/12.jpg" height="200" width="350" align="right">
+				<b>Preheat Zone</b>: Negligibly small heat release.
+				<li>Decomposition of fuel takes place, leading to intermediate radical formation.</li>
+				<li>Certain chemical reactions take place in this zone.</li>
+				<br>
+				<b>Reaction Zone</b>: Most of the chemical energy is released in the form of heat.
+				<li>Reaction zone is very thin as compared to the preheat zone.</li>
+				<li>Temperature gradient and concentration gradient are high.</li>
+				<li>Diffusion of heat and radicals from this zone to preheat zone sustains combustion.</li>
+				<br>
+				<b>Recombination Zone</b>: CO<sub>2</sub> and H<sub>2</sub>O are formed.
+				<li>Negligible heat release in this zone.</li>
+				</ul>
+				</span>
+				</span>
+				<img src="../images/113.jpg" height="400" width="500" align="center">
+
+				<span style="font-family: calibri;">
+				<span style="font-size: 1.5em;">
+				<ul style="color:#cc3300;">
+				Hydrocarbon flames � characterized by the emitted visible radiation.
+
+				<b>Dark zone</b>: unburnt gases are heated to the critical temperature.
+				<br>
+				<b>Luminous zone</b>: region where much of the chemical reactions take place.
+				<li>Highest temperature prevails in this zone.</li>
+				<li>Color of luminous zone depends on the fuel-air ratio.</li>
+				<li>Fuel lean mixture: blue colored flame due to excited CH radical.</li>
+				<li>Fuel rich mixture: green colored flame due to excitation of C<sub>2</sub> molecule.</li>
+				<li>Highly fuel rich mixture: yellow colored flame due to soot formation.</li>
+				<br>
+				<b>Diffusion Zone</b>: outer cone above luminous zone.
+				<li>Observed especially in rich flames.</li>
+				</ul>
+				</span>
+				</span>
+
+				<br><br>
+				<h2>Characterization of Premixed Flame</h2>
+				<img src="../images/t3.jpg" height="200" width="700" align="center">
+				<span style="font-family: calibri;">
+				<span style="font-size: 1.5em;">
+				<ul style="color:#cc3300;">
+				<b>Importance of burning velocity</b> 
+				<br><br>
+				<li>Premixed flame can be characterized by laminar burning velocity.</li><br>
+				<li>Laminar burning velocity influences the flame shape.</li><br>
+				<li>Laminar burning velocity dictates the stability characteristics of the flame.</li><br>
+				<li>Laminar burning velocity dictates flame quenching.</li><br>
+				</ul>
+				</span>
+				</span>
+				<br>
+
+				<h2>Burning Velocity Measurement Methods</h2>
+				<img src="../images/t4.jpg" height="400" width="600" align="center">
+				<br><br>
+
+				<h2>Stationary Flame Method (Bunsen Burner)</h2>
+				<img src="../images/t5.jpg" height="500" width="800" align="center">
+				<br><br>
+
+				<h2>Stationary Flame Method (Bunsen Flame)</h2>
+				<img src="../images/t6.jpg" height="350" width="600" align="center">
+				<br><br>
+				<span style="font-family: calibri;">
+				<span style="font-size: 1.5em;">
+				<ul style="color:#cc3300;">
+				<b>Angle Method</b>
+				<b>Importance of burning velocity:</b>
+				<li>Uniform velocity profile has to be maintained at the tube exit.</li><br>
+				<li>Nozzle is employed to maintain uniform velocity profile.</li><br>
+				<li>Infinitely thin perfectly conical flame front is established.</li><br>
+				<li>For flame to be stationary, the local burning velocity must be equal to the local flow velocity.</li><br>
+				</ul>
+				</span>
+				</span>
+				<br><br>
+				<span style="font-family: calibri;">
+				<span style="font-size: 1.5em;">
+				<ul style="color:#cc3300;">
+				<img src="../images/t7.jpg" height="400" width="300" align="right">
+				<b>Area Method</b>
+				<li>The gas burns at the exit of the tube and a conical flame with a tip and base is established .
+				<li>For flame to be stationary, the local burning velocity must be equal to the local flow velocity.
+				<li>Flame shape will be influenced by the exit velocity profile  and heat loss to the tube wall.
+				<li>Lengthy tube ensures fully developed flow.
+				<li>For a stationary flame, mass balance provides expression for S<sub>L</sub>
+				<img src="../images/t10.jpg" height="60" width="100" align="center">
+				V<sub>u</sub>: average flow velocity in tube, A<sub>t</sub>: tube cross sectional area, A<sub>F</sub>: conical surface area of flame
+				This method is known as <b>area method</b>.</li><br>
+				</ul>
+				</span>
+				</span>
+				<br><br>
+				<span style="font-family: calibri;">
+				<span style="font-size: 1.5em;">
+				<ul style="color:#cc3300;">
+				<b>Disadvantages:</b>
+				<li>Heat loss to the wall cannot be avoided completely.</li>
+				<li>Burning velocity does not remain constant along its surface.</li>
+				<li>Flame stabilization for large diameter is difficult due to flash back.</li>
+				</ul>
+				</span>
+				</span>
+				<br><br>
+				<h2>Procedure for Area Method</h2>
+				<br><br>
+				<img src="../images/t8.jpg" height="200" width="800" align="center">
+				<br>
+				<span style="font-family: calibri;">
+				<span style="font-size: 1.5em;">
+				<p style="color:#cc3300;">
+				By carrying out a mass balance across the flame, 
+				<img src="../images/t11.jpg" height="50" width="100" align="center">
+				V<sub>u</sub> - average flow velocity of the unburned fuel-air mixture<br>
+				A<sub>t</sub> - cross-sectional area of the tube<br>
+				A<sub>F</sub> - conical surface area of the flame<br> 
+				flame surface area,
+				<img src="../images/t12.jpg" height="50" width="220" align="center">
+				</p>
+				</span>
+				</span>
+				<img src="../images/t9.jpg" height="300" width="300" align="center">
+				</div>
+		    </div>
+		</section>
+
+                <section id="experiment-article-section-4">
+                    <div class="icon" id="experiment-article-section-4-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/procedure.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-4-heading">
+                        Procedure
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-4-content">
+                        <div class="divContent">
+				<h2>Experimental Setup</h2>
+				<br><br>
+				<img src="../images/picture16.jpg" height="550" width="750" align="center">
+				<br><br>
+				<span style="font-family: calibri;">
+				<span style="font-size: 1.5em;">
+				<ul style="color:#cc3300;">
+				<li>The burner has to be kept in an enclosed chamber to avoid the entrainment of ambient air.</li><br> 
+				<li>The burner has two inlets; one for the fuel-air mixture and the other one for nitrogen gas, which will act as a curtain to the flame.</li><br> 
+				<li>Rotameters are employed to measure the flow rate of fuel and air supplied to the burner.</li><br> 
+				<li>The supply air and fuel is controlled through a fine control needle valve, fitted just before the rotameters.</li><br> 
+				<li>Care should be taken to calibrate the measuring equipments before using in the experimental setup.</li><br> 
+				<li>Camera has to be kept sufficient distance away from the flame.</li><br>
+				<li>Ensure burner alignment with the help of sprit level.</li><br>
+				</ul>
+				</span>
+				</span>
+
+				<br>
+
+				<h2>Experimental Procedure</h2>
+				<br><br>
+				<span style="font-family: calibri;">
+				<span style="font-size: 1.5em;">
+				<ul style="color:#cc3300;">
+				<li>Open the air inlet valve.</li><br>
+				<li>Set the desired pressure in the inlet pressure regulator.</li><br>
+				<li>Fix the fuel flow rate to a desired level.</li><br>
+				<li>Now open the needle valve and set the air flow with the help of rotameter to obtain the specified equivalence ratio.</li><br>
+				<li>Now ignite the mixture at the burner exit.</li><br>
+				<li>Wait for sometime till no further changes in the flame shape is observed.</li><br>
+				<li>Acquire the flame image through image recording system.</li><br>
+				<li>Ensure that the camera is aligned properly to avoid systematic errors.</li><br>
+				</ul>
+				</span>
+				</span>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-5">
+                    <div class="icon" id="experiment-article-section-5-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/sim.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-5-heading">
+                        Results
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-5-content">
+                        <div class="divContent">
+                    		<h2>Effect of Equivalence Ratio on Flame Appearance</h2>
+				<br><br>
+				<img src="../images/k1.jpg" height="400" width="600" align="center">
+				<br><br>
+				<span style="font-family: calibri;">
+				<span style="font-size: 1.5em;">
+				<ul style="color:#cc3300;">
+				<li>For the rich flame (0 > 1.00), bright inner and a faint outer flame are observed.</li><br>
+				<li>The outer flame is caused due to the burning of hot unburnt fuel with the entrained ambient air.</li><br>
+				<li>Attached video shows the transition from lean to rich flame and appearance of the outer flame.</li><br>
+				</ul>
+				</span>
+				</span>
+				<br>
+				<h2>Methodology (Image Processing)</h2>
+				<br><br>
+				<img src="../images/k2.jpg" height="250" width="800" align="center">
+				<img src="../images/k3.jpg" height="220" width="800" align="center">
+				<br><br>
+				<span style="font-family: calibri;">
+				<span style="font-size: 1.5em;">
+				<p style="color:#cc3300;">
+				<b>Locations on the Flame Image for Data Extraction</b>
+				<br>
+				<img src="../images/k4.jpg" height="300" width="280" align="center">
+				<br>
+				Above figure shows the typical locations at which necessary data for estimating the flame area are extracted. 
+				</p>
+				<br><br>
+				<p style="color:#cc3300;">
+				<b>Intensity Distribution at Different Axial Locations of Flame</b>
+				<br><br>
+				<img src="../images/k5.jpg" height="500" width="600" align="center">
+				</p>
+				<ul style="color:#cc3300;">
+				<li>Intensity distribution along the radius at three axial locations of the flame is shown above.</li><br> 
+				<li>Two peaks are observed for <i>z/d</i> = 0.1 and 0.85; <i>z/d = 1.4</i> has a single peak.</li><br> 
+				<li>These peak points are used to estimate the flame surface area.</li><br>
+				</ul>
+				</span>
+				</span>
+
+				<br><br>
+
+				<h2>Effect of Equivalence Ratio on Burning Velocity</h2>
+				<span style="font-family: calibri;">
+				<span style="font-size: 1.5em;">
+				<br>
+				<p style="color:#cc3300;">
+				<b>Variation of burning velocity with equivalence ratio for CNG-air mixture</b>
+				<br><br>
+				<img src="../images/k6.jpg" height="450" width="600" align="center">
+				<ul style="color:#cc3300;">
+				<li>The estimated burning velocity (S<sub>L</sub>) of the laminar flame varies non-monotonically with the equivalence ratio (F).</li><br>
+				<li>S<sub>L</sub> first increases as the flame nears the stoichiometric composition from fuel-lean conditions, where it is small.</li><br>
+				<li>It again decreases as the flame burns in increasingly fuel-rich conditions.</li><br> 
+				<li>Peak S<sub>L</sub> is attained near the stoichiometric mixture composition (F = 1.0).</li><br>
+				</ul>
+				</p>
+				</span>
+				</span>        
+			</div>
+	    	    </div>
+                </section>
+
+                <section id="experiment-article-section-6">
+                    <div class="icon" id="experiment-article-section-6-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/gallery.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-6-heading">
+                        Gallery
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-6-content">
+                        <div class="divContent">
+				<h2>Effect of Equivalence Ratio on Flame Appearance</h2>
+				<br><br>
+				<iframe width="560" height="315" embed src="../videos/phi.wmv" frameborder="0">
+				</iframe>                                                        
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-7">
+                    <div class="icon" id="experiment-article-section-7-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/Precautions.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-7-heading">
+                        Precautions
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-7-content">
+                        <div class="divContent">
+				<br><br>
+				<span style="font-family: calibri;">
+				<span style="font-size: 1.5em;">
+				<ul style="color:#cc3300;">
+				<li>Ensure that there is no leakage in the fuel line.</li><br>
+				<li>Turn on the exhaust fan before starting the experiment.</li><br>
+				<li>Check whether the valves are functioning properly.</li><br>
+				<li>In case of flash-back, increase the air flow rate instantly.</li><br>
+				<li>After completing the experiment, turn off the valve in the fuel cylinder without fail.</li><br> 
+				<li>Hood should be used for evacuation of the exhaust gas.</li><br>
+				<li>Keep the fire extinguisher (in operating condition) nearby the experimental setup.</li><br>
+				</ul>
+				</span>
+				</span>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-8">
+                    <div class="icon" id="experiment-article-section-8-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/feedback.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-8-heading">
+                        FAQs
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-8-content">
+			<br><br>
+			<span style="font-family: calibri;">
+			<span style="font-size: 1.5em;">
+			<ul style="color:#cc3300;">
+			<li>Define laminar burning velocity.</li><br>
+			<li>What is the importance of laminar burning velocity?</li><br>
+			<li>What are the different methods by which laminar burning velocity can be determined?</li><br>
+			<li>Explain the salient features of propagation method and stationary flame method.</li><br>
+			<li>What should be the condition for a flame to be stationary?</li><br>
+			<li>What is the effect of equivalence ratio on the laminar burning velocity?</li><br>
+			<li>Will pressure and temperature influence laminar burning velocity?</li><br>
+			<li>What is the physical mechanism by which flame is stabilized in the Bunsen burner?</li><br>
+			<li>What is the rationale behind the area method of determining the burning velocity?</li><br>
+			<li>What is quenching diameter?</li><br>
+			<li>Though a uniform velocity profile is maintained at the tube exit, a conical flame is established. Why it is so?</li><br>
+			</ul>
+			</span>
+			</span>
+                    </div>
+                </section>
+		
+		<section id="experiment-article-section-9">
+                    <div class="icon" id="experiment-article-section-9-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/books.jpg"></div>
+                    <div class="heading" id="experiment-article-section-9-heading">
+			References                        
+                    </div>
+                    <div class="content" id="experiment-article-section-9-content">
+			<br><br>
+			<span style="font-family: calibri;">
+			<span style="font-size: 1.5em;">
+			<ul style="color:#cc3300;">
+			<li>C. J. Rallis and A. M. Garforth, “The determination of laminar burning velocity”, Prog. Energy Combust. Sci., Vol. 6, pp. 303-329, 1980.</li><br>  
+			<li>D. P. Mishra, “Fundamentals of Combustion”, PHI Learning Private Limited, 2010.</li><br>
+			<li>S.Y. Liao, D.M. Jiang, Q. Cheng, “Determination of laminar burning velocities for natural gas”, Fuel, Vol. 83, pp. 1247–1250, 2004.</li><br>
+
+			<b>Image Sources</b>
+
+			<li><i>Bunsen Burner:</i><br> 
+			http://www.fotosearch.com/bthumb/STK/STK004/RPP1045.jpg</li><br>
+			<li><i>Domestic Burner:</i><br> 
+			http://www.static.shell.com/static/public/imgs/generalcontent/recommended_size/lpg/blue_hob_flame_black_backgr.jpg</li><br>
+			<li><i>Jet Engine Afterburner:</i><br> 
+			http://www.avsim.com/pages/0507/Su33/9----Su33-Exterior-5.jpg</li><br>
+			<li><i>SI Engine:</i><br> 
+			http://users.telenet.be/cleanteam/index_bestanden/image997.gif</li><br>
+			<li><i>Animations:</i><br> 
+			www.youtube.com</li><br>
+			</ul>
+			</span>
+			</span>
+		    </div>
+		</section>
+            </div>
+        </article>
+	
+
+        <footer  class="footer">
+            <!-- Put the content here -->
+            <div style="margin-left:40%; margin-right:40% ">
+            <a href="../license/index.html" target="_blank" style="margin:auto"> Licensing Terms </a>
+            </div>
+      </footer> 
+    </div>
+</body>
+</html>

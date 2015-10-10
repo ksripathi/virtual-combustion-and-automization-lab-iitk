@@ -1,0 +1,408 @@
+<!-- This file needs to be edited by the lab developer to suit
+the requirements of their lab in particular.-->
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+
+<body>
+    <div id="experiment">
+        <!-- The Experiment Document Container-->
+        <!-- The lab Header contains the logo and the name of the lab,
+  usually displayed on the top of the page-->
+
+        <header class="default" id="experiment-header">
+            <div class="logo" id="experiment-header-logo">
+            <!-- Enclose the logo image of your lab or write it in 
+      text-->
+            <img src="../images/logo.jpg"></div>
+
+            <div class="heading" id="experiment-header-heading">
+                <!-- Write the name of your lab and link it to the home 
+      page of your lab (h1 tag is preferred while writing your 
+      lab name)-->
+                <a href="../index.html">Virtual Combustion and Atomization (VCA) Lab</a>
+            </div><!-- Add any additional element you want to add to the lab 
+    header, For example : Help (Enclosing them with suitable 
+    div is recommended)-->
+        </header><!-- The lab article is the main content area where all the 
+  experiment content sits-->
+
+        <article id="experiment-article">
+            <!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+
+            <div class="breadcrumb" id="experiment-article-breadcrumb"></div>
+
+            <header class="heading" id="experiment-article-heading">
+		Characterization of laminar premixed flame using chemiluminescence sensor
+            </header><!-- Navigation menu is useful to organize the view of 
+      multiple sections inside the article-->
+
+            <nav class="default" id="experiment-article-navigation">
+                <ul id="experiment-article-navigation-menu">
+                    <!-- The menu can be dynamically generated to contain 
+          the headings of your sections or instead write the 
+          menu items of your choice individually enclosedu in 
+          &lt;li&gt; tag as shown below-->
+                </ul>
+            </nav><!-- All the sections of your lab or experiment can be 
+      enclosed together with a div element as shown below-->
+
+            <div id="experiment-article-sections">
+                <!-- First section of the article-->
+
+                <section id="experiment-article-section-1">
+                    <div class="icon" id="experiment-article-section-1-icon">
+                    <!-- Enclose the icon image of your lab -->
+                    <img src="../images/introduction.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+          div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-1-heading">
+                        Aim
+                    </div><!-- Write the section content inside a paragraph 
+          element, You can also include images with &lt;img&gt; tag -->
+                    <div class="content" id=
+                    "experiment-article-section-1-content">
+                        <div class="divContent">
+				<br><br>
+				<span style="font-family: calibri;">
+				<span style="font-size: 1.5em;">
+				<ul style="color:#cc3300;">
+				<li>To get a theoretical background on flame chemiluminescence.</li><br>
+				<li>Determination of equivalence ratio using chemiluminescence sensor.</li><br>
+				<li>Determination of flame temperature using chemiluminescence sensor.</li><br>
+				</ul>
+				</span>
+				</span>
+                        </div>
+                    </div>
+                </section><!-- Second section of the article-->
+
+                <section id="experiment-article-section-2">
+                    <div class="icon" id="experiment-article-section-2-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/theory.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-2-heading">
+                        Intro
+                    </div><!-- Write the section content inside a paragraph 
+        element, we can also include images with &lt;img&gt; tag -->
+
+                    <div class="content" id="experiment-article-section-2-content">
+                        <div class="divContent">
+				<h2>Chemiluminescence</h2>
+				<br><br>
+				<span style="font-family: calibri;">
+				<span style="font-size: 1.5em;">
+				<ul style="color:#cc3300;">
+				<img src="../images/picture3.jpg" height="250" width="250" align="right"><br>
+				<li>A flame is a spatial domain in which rapid exothermic reaction takes place emitting visible and infrared light. The frequency of these spectrum depends on intermediate reaction products.</li><br>
+				<li>The flame emits light of various wavelengths due to presence of certain chemical species in the flame which is known as <b>Chemiluminescence</b>. For example, incandescent solid particles called soot, produce the familiar yellow color in flame.</li><br>
+				<li>Premixed flame exhibits blue color due to the emission of single-wavelength radiation of the excited molecules formed in the flame.</li><br>
+				<li>Ultraviolet and visible radiation is emitted naturally.</li><br>
+				</ul>
+				</span>
+				</span>
+				<br><br>
+				<img src="../images/picture4.jpg" height="350" width="900px" align="center">
+				<br><br>
+				<span style="font-family: calibri;">
+				<span style="font-size: 1.5em;">
+				<ul style="color:#cc3300;">
+				<li>Chemiluminescence is caused by <b>electronically excited intermediate species</b> including <b>OH*, CH*, or C<sub>2</sub>*</b> formed during chemical reactions.</li><br> 
+				<li>Emitted radiation is resolved into <b>components of different wavelengths and intensities</b> with the help of a spectrophotometer.</li><br>
+				<li>Each species has a characteristic wavelength of its own (see figure), useful as its identifier.</li><br>
+				<li>It is therefore of interest to investigate if the collected chemiluminescence data can provide <b>information on local fuel/air ratios and flame temperature</b>.</li><br> 
+				<li>This could be a cheap and non-intrusive method to monitor and control combustion.</li><br>
+				</ul>
+				</span>
+				</span>
+			</div>
+                    </div><br>
+                </section>
+
+                <section id="experiment-article-section-3">
+                    <div class="icon" id="experiment-article-section-3-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/objective.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-3-heading">
+                        Theory
+                    </div>
+
+                    <div class="content" id="experiment-article-section-3-content">
+			<div claass="divContent">				
+				<h2>Experimental Setup</h2>
+				<br>
+				<span style="font-family: calibri;">
+				<span style="font-size: 1.5em;">
+				<ul style="color:#cc3300;">
+				<img src="../images/img99.jpg" height="400" width="500" align="center">
+				<br>
+				<li>Rotameters are employed to measure the flow rate of fuel and air supplied to the burner.</li><br> 
+				<li>The supply air and fuel (CNG) are controlled through a fine control needle valve, fitted just before the rotameters.</li><br> 
+				<li>Care should be taken to calibrate the measuring equipments before using in the experimental setup.</li><br> 
+				<li>While mounting the rotameters, ensure their alignment with the help of sprit level.</li><br>
+				</ul>
+				</span>
+				</span>
+
+				<br>
+				<span style="font-family: calibri;">
+				<span style="font-size: 1.5em;">
+				<p style="color:#cc3300;">
+				<b>Chemiluminescence Sensor</b>
+				<img src="../images/img91.jpg" height="400" width="700" align="center">
+				</p>
+				</span>
+				</span>
+				<br><br>
+
+
+
+				<h2>Experimental Procedure</h2>
+				<br><br>
+				<span style="font-family: calibri;">
+				<span style="font-size: 1.5em;">
+				<ul style="color:#cc3300;">
+				<li>Open the air inlet valve.</li><br>
+				<li>Set the desired pressure in the inlet pressure regulator.</li><br>
+				<li>Fix CNG fuel flow rate.</li><br>
+				<li>Now open the needle valve and set the desired air flow with the help of rotameter to obtain the specified equivalence ratio.</li><br>
+				<li>Now ignite the mixture at the burner exit.</li><br>
+				<li>Wait for sometime till no further changes in the flame shape is observed.</li><br>
+				</ul>
+				</span>
+				</span>
+			</div>
+		    </div>
+		</section>
+
+                <section id="experiment-article-section-4">
+                    <div class="icon" id="experiment-article-section-4-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/sim.jpg"></div>
+
+                    <div class="heading" id="experiment-article-section-4-heading">
+                        Results
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-4-content">
+                        <div class="divContent">
+				<h2>Test Details</h2>
+				<br><br>
+				<span style="font-family: calibri;">
+				<span style="font-size: 1.5em;">
+				<ul style="color:#cc3300;">
+				<li>Chemiluminescence signatures of OH<sup>*</sup> and CH<sup>*</sup>.</li><br> 
+				<li>Determination of marker for equivalence ratio.</li><br>
+				<li>Determination of marker for flame temperature.</li><br>
+				</ul>
+				</span>
+				</span>
+
+				<br><br>
+
+				<h2>CH<sup>*</sup> chemiluminescence and flame temperature</h2>
+				<br><br>
+				<img src="../images/k11.jpg" height="500" width="700" align="center">
+				<br><br>
+				<span style="font-family: calibri;">
+				<span style="font-size: 1.5em;">
+				<ul style="color:#cc3300;">
+				<li>CH<sup>*</sup> intensity and temperature variations with equivalence ratio are similar.</li><br> 
+				<li>However, CH<sup>*</sup> and temperature peaks do not occur at same equivalence ratio.</li><br>
+				<li>Hence, CH<sup>*</sup> might <b>not</b> be a good marker for flame temperature.</li><br>
+				</ul>
+				</span>
+				</span>
+
+				<br><br>
+
+				<h2>OH<sup>*</sup> chemiluminescence and flame temperature</h2>
+				<br><br>
+				<img src="../images/k12.jpg" height="500" width="700" align="center">
+				<br><br>
+				<span style="font-family: calibri;">
+				<span style="font-size: 1.5em;">
+				<ul style="color:#cc3300;">
+				<li>OH<sup>*</sup> intensity and temperature variations with equivalence ratio are similar.</li><br> 
+				<li>Further, OH<sup>*</sup> and temperature peaks occur at nearly same equivalence ratio.</li><br>  
+				<li>Hence, OH<sup>*</sup> is a good marker for flame temperature.</li><br>
+				</ul>
+				</span>
+				</span>
+
+				<br><br><br><br>
+				<h2>OH<sup>*</sup> intensity-flame temperature correlation</h2>
+				<br><br><br><br>
+				<img src="../images/k13.jpg" height="400" width="500" align="center">
+				<br><br>
+				<span style="font-family: calibri;">
+				<span style="font-size: 1.5em;">
+				<ul style="color:#cc3300;">
+				<li>OH<sup>*</sup> intensity normalized using its peak value and temperature variations are correlated using the following expression (R<sup>2</sup> = 0.97).</li><br>
+				<li>The correlation is based on data obtained for ? = 0.85-1.35.</li><br>
+				</ul>
+				</span>
+				</span>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-5">
+                    <div class="icon" id="experiment-article-section-5-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/simulation.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-5-heading">
+                        Simulation
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-5-content">
+                        <div class="divContent">
+       
+			</div>
+	    	    </div>
+                </section>
+
+                <section id="experiment-article-section-6">
+                    <div class="icon" id="experiment-article-section-6-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/eval.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-6-heading">
+                        Conclusions
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-6-content">
+                        <div class="divContent">
+				<br><br>
+				<span style="font-family: calibri;">
+				<span style="font-size: 1.5em;">
+				<ul style="color:#cc3300;">
+				<li>Flame chemiluminescence can be utilized to devise a convenient and non-intrusive optical technique for measurement of equivalence ratio and flame temperature.
+				</li><br>
+				<li>The intensity ratio OH*/CH* can be used as a marker for equivalence ratio. Their correlation can be expressed as:<br><br>
+				<img src="../images/picture1.jpg" height="40" width="400px" align="center"><br><br>
+				</li><br>
+				<li>The intensity of OH* normalized by its peak value can be used as a marker for flame temperature. Their correlation can be expressed as:<br><br>
+				<img src="../images/picture2.jpg" height="40" width="400px" align="center"><br><br>
+				</li><br>
+				</ul>
+				</span>
+				</span>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-7">
+                    <div class="icon" id="experiment-article-section-7-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/Precautions.jpg"></div>
+
+                    <div class="heading" id="experiment-article-section-7-heading">
+                        Precautions
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-7-content">
+                        <div class="divContent">
+				<br><br>
+				<span style="font-family: calibri;">
+				<span style="font-size: 1.5em;">
+				<ul style="color:#cc3300;">
+				<li>Ensure that there is no leakage in the fuel line.</li><br>
+				<li>Turn on the exhaust fan before starting the experiment.</li><br>
+				<li>Check whether the valves are functioning properly.</li><br>
+				<li>In case of flash-back, increase the air flow rate instantly.</li><br>
+				<li>After completing the experiment, turn off the valve in the fuel cylinder without fail.</li><br> 
+				<li>Hood should be used for evacuation of the exhaust gas.</li><br>
+				<li>Keep the fire extinguisher (in operating condition) nearby the experimental setup.</li><br>
+				</ul>
+				</span>
+				</span>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-8">
+                    <div class="icon" id="experiment-article-section-8-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/feedback.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-8-heading">
+                        FAQs
+                    </div>
+
+                    <div class="content" id="experiment-article-section-8-content">
+                        <div class="divContent">
+				<br><br>
+				<span style="font-family: calibri;">
+				<span style="font-size: 1.5em;">
+				<ul style="color:#cc3300;">
+				<li>How electronic excitation process occurs?</li><br>
+				<li>What do you mean by chemiluminescence?</li><br>
+				<li>Can you comment upon the sensitivity of a chemiluminescence signal for flame temperature?</li><br>
+				<li>How to calibrate chemiluminescence sensor for equivalence ratio?</li><br>
+				<li>Is it possible to detect only one component preferentially during experiment? What changes are necessary in the set up?</li><br>
+				</ul>
+				</span>
+				</span>
+			</div>
+                    </div>
+                </section>
+		
+		<section id="experiment-article-section-9">
+                    <div class="icon" id="experiment-article-section-9-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/books.jpg"></div>
+                    <div class="heading" id="experiment-article-section-9-heading">
+			References                        
+                    </div>
+                    <div class="content" id="experiment-article-section-9-content">
+			<div class="divContent">
+				<br><br>
+				<span style="font-family: calibri;">
+				<span style="font-size: 1.5em;">
+				<ul style="color:#cc3300;">
+				<li>D. P. Mishra, "Fundamentals of Combustion", <i>PHI Learning Private Limited</i>, 2010.</li><br>
+				<li>A. G. Gaydon and H. G. Wolfhard, "Flames: Their Structure, Radiation, and Temperature", <i>Chapman and Hall</i>, London, 1978.</li><br>
+				</ul>
+				</span>
+				</span>
+			</div>
+		    </div>
+		</section>
+            </div>
+        </article>
+	
+
+        <footer  class="footer">
+            <!-- Put the content here -->
+            <div style="margin-left:40%; margin-right:40% ">
+            <a href="../license/index.html" target="_blank" style="margin:auto"> Licensing Terms </a>
+            </div>
+      </footer> 
+    </div>
+</body>
+</html>

@@ -1,0 +1,409 @@
+<!-- This file needs to be edited by the lab developer to suit
+the requirements of their lab in particular.-->
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+
+<body>
+    <div id="experiment">
+        <!-- The Experiment Document Container-->
+        <!-- The lab Header contains the logo and the name of the lab,
+  usually displayed on the top of the page-->
+
+        <header class="default" id="experiment-header">
+            <div class="logo" id="experiment-header-logo">
+            <!-- Enclose the logo image of your lab or write it in 
+      text-->
+            <img src="../images/logo.jpg"></div>
+
+            <div class="heading" id="experiment-header-heading">
+                <!-- Write the name of your lab and link it to the home 
+      page of your lab (h1 tag is preferred while writing your 
+      lab name)-->
+                <a href="../index.html">Virtual Combustion and Atomization (VCA) Lab</a>
+            </div><!-- Add any additional element you want to add to the lab 
+    header, For example : Help (Enclosing them with suitable 
+    div is recommended)-->
+        </header><!-- The lab article is the main content area where all the 
+  experiment content sits-->
+
+        <article id="experiment-article">
+            <!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+
+            <div class="breadcrumb" id="experiment-article-breadcrumb"></div>
+
+            <header class="heading" id="experiment-article-heading">
+                Flame spread over a solid fuel surface 
+            </header><!-- Navigation menu is useful to organize the view of 
+      multiple sections inside the article-->
+
+            <nav class="default" id="experiment-article-navigation">
+                <ul id="experiment-article-navigation-menu">
+                    <!-- The menu can be dynamically generated to contain 
+          the headings of your sections or instead write the 
+          menu items of your choice individually enclosedu in 
+          &lt;li&gt; tag as shown below-->
+                </ul>
+            </nav><!-- All the sections of your lab or experiment can be 
+      enclosed together with a div element as shown below-->
+
+            <div id="experiment-article-sections">
+                <!-- First section of the article-->
+
+                <section id="experiment-article-section-1">
+                    <div class="icon" id="experiment-article-section-1-icon">
+                    <!-- Enclose the icon image of your lab -->
+                    <img src="../images/introduction.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+          div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-1-heading">
+                        Aim
+                    </div><!-- Write the section content inside a paragraph 
+          element, You can also include images with &lt;img&gt; tag -->
+                    <div class="content" id=
+                    "experiment-article-section-1-content">
+                        <div class="divContent">
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>To understand the mechanism of flame spread rate.</li>
+                            <br>
+                            <li>To investigate the effects of following variables on flame spread rate.
+                            <ul>
+                            <li>Tilt angle</li>
+                            <li>Soaking with liquid</li>
+                            <li>Fuel thickness</li>
+                            </ul>
+                            </li>
+                            </ul>
+                            </span>
+                            </span>
+                        </div>
+                    </div>
+                </section><!-- Second section of the article-->
+
+                <section id="experiment-article-section-2">
+                    <div class="icon" id="experiment-article-section-2-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/theory.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-2-heading">
+                        Intro
+                    </div><!-- Write the section content inside a paragraph 
+        element, we can also include images with &lt;img&gt; tag -->
+
+                    <div class="content" id="experiment-article-section-2-content">
+                        <div class="divContent">
+                            <h2>Importance of flame spread rate study</h2>
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>Most of the solids used in our day-to-day life are combustible in nature.</li><br>
+                            <li>For example, household furniture, packing material,  building material and even thermal-acoustical insulation blankets of aircrafts.</li><br>
+                            <li>The study will help to understand the flame spread rate of these solids subjected to different conditions.</li><br>
+                            <li>The problem is of importance since it helps in the fire-safety  considerations of these materials.</li><br>
+                            <li>Besides this, it is important to characterize the combustion over a solid fuel surface.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+            			</div>
+                    </div><br>
+                </section>
+
+                <section id="experiment-article-section-3">
+                    <div class="icon" id="experiment-article-section-3-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/theory.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-3-heading">
+                        Theory
+                    </div>
+
+                    <div class="content" id="experiment-article-section-3-content">
+			            <div claass="divContent">				
+			                <h2>Process in Solid Fuel Combustion</h2>
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>The flame front generates heat and pyrolyzes the unburnt side of the solid fuel.</li><br>
+                            <li>Pyrolysis is the process during which solid fuel undergoes thermal degradation in the absence of oxidizer.</li><br>
+                            <li>Pyrolysis leads to flow of fuel vapour.</li><br>
+                            <li>Followed by this, mixing of ambient air with the fuel vapour occurs.</li><br>
+                            <li>Fuel-air mixture gets ignited, and thereby forming a self-sustained flame.</li><br>
+                            <li>Flame propagates in the downward direction.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+                            <img src="./images/picture53.jpg" height="220" width="500" align="center">
+                            <br><br>
+                            <h2>Flame Spread Rate</h2>
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <img src="./images/picture54.jpg" height="200" width="350" align="right">
+                            <li>The length of the paper consumed per unit time by the flame is known as Flame Spread Rate (FSR).</li><br> 
+                            <li>As the flame front propagates in the downward direction, the solid furl surface regresses.</li><br> 
+                            </ul>
+                            </span>
+                            </span>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <p style="color:#cc3300;">
+                            Flame Spread Rate (FSR):
+                            </p>
+                            </span>
+                            </span>
+                            <img src="./images/picture56.jpg" height="50" width="90" align="left">
+
+                            <br><br><br><br><br><br>
+                            <h2>Factors Affecting Flame Spread Rate</h2>
+                            <br><br>
+                            <img src="./images/picture55.jpg" height="330" width="700" align="center">
+            			</div>
+		            </div>
+		    </section>
+
+                <section id="experiment-article-section-4">
+                    <div class="icon" id="experiment-article-section-4-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/procedure.jpg"></div>
+
+                    <div class="heading" id="experiment-article-section-4-heading">
+                        Procedure
+                    </div>
+
+                    <div class="content" id="experiment-article-section-4-content">
+                        <div class="divContent">                         
+                            <h2>About Experiment</h2>
+                                <br><br>
+                                <ul style="color:#cc3300;">
+                                <span style="font-family: calibri;">
+                                <span style="font-size: 1.5em;">
+                                <li>It is important to understand the flame spread over the solid fuels used in our day-to-day life.</li><br>
+                                <li>Paper can be considered as a solid fuel.</li><br>
+                                <li>The combustible properties of paper will differ significantly depending upon whether it is soaked with a liquid fuel or not.</li><br>
+                                <li>Besides this, the paper thickness will also have influence on the flame spread rate.</li><br>
+                                <li>In this experiment, we will try to understand the phenomena occurring during  the downward propagation of flame in a solid fuel (paper).</li><br>
+                                </span>
+                                </span>
+                                </ul>
+
+                                <br>
+
+                                <h2>Exprimental Setup</h2>
+                                <br>
+                                <img src="./images/picture60.jpg" height="400" width="650" align="center">
+
+                                <br><br>
+
+                                <h2>Exprimental Procedure</h2>
+                                <br><br>
+                                <ul style="color:#cc3300;">
+                                <span style="font-family: calibri;">
+                                <span style="font-size: 1.5em;">
+                                <li>The paper is clamped between the two vertical metal strips.</li><br>
+                                <li>The paper holder can be rotated to a desired angle.</li><br>
+                                <li>Once the fuel is set at a desired angle, the ignition coil is brought into contact at the top edge of the fuel surface.</li><br>
+                                <li>Ensure that the ignition takes place uniformly at the contact edge.</li><br>
+                                <li>Experiment is conducted in an enclosed chamber with an escape passage for the exhaust gases.</li><br>
+                                <li>A high resolution video camera is used to acquire the images.</li><br>
+                                </span>
+                                </span>
+                                </ul>
+                                <img src="./images/picture61.jpg" height="400" width="750" align="center">
+                                <p style="color:#cc3300;">
+                                <span style="font-family: calibri;">
+                                <span style="font-size: 1.5em;">
+                                NOTE: Flame front is identified by the blue zone behind the luminous yellow zone.
+                                </span>
+                                </span>
+                                </p>
+                                <br><br><br>
+                                <h2>Results: images of combustion process</h2>
+                                <br><br><br>
+                                <img src="./images/picture62.jpg" height="400" width="650" align="center">
+                                <br><br><br>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-5">
+                    <div class="icon" id="experiment-article-section-5-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/sim.jpg"></div>
+
+                    <div class="heading" id="experiment-article-section-5-heading">
+                        Results
+                    </div>
+
+                    <div class="content" id="experiment-article-section-5-content">
+                        <div class="divContent">
+                            <h2>Effect of tilt on the flame spread rate</h2>
+                            <img src="./images/picture57.jpg" height="400" width="550" align="center">
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>As the tilt angle is increased, initially a sharp decrease in the flame spread rate is observed (till ? = 30�).</li><br>
+                            <li>Beyond ? = 30�, the change in the flame spread rate in marginal.</li><br>
+                            <li>The higher flame spread rate at the tilt angle ? = 0�, is due to buoyancy.</li><br> 
+                            </ul>
+                            </span>
+                            </span>
+
+                            <br>
+
+                            <h2>Effect of soaking on the flame spread rate</h2>
+                            <br><br><br>
+                            <img src="./images/picture58.jpg" height="300" width="550" align="center">
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>Soaking of fuel with another fuel (Jet A1 or aviation turbine fuel) increases the flame spread rate.</li><br>
+                            <li>However, soaking with a retardant will obviously reduce the flame spreading rate.</li><br> 
+                            </ul>
+                            </span>
+                            </span>
+
+                            <br>
+
+                            <h2>Effect of fuel thickness on the flame spread rate</h2>
+                            <img src="./images/picture59.jpg" height="400" width="550" align="center">
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>As the fuel thickness increases, the flame spread rate decreases.</li><br> 
+                            <li>With increase in fuel thickness, the residence time of flame become more and resulting in a lower flame spread rate.</li><br> 
+                            <li>Hence the flame propagates at a faster rate for solid fuel with less thickness.</li><br> 
+                            </ul>
+                            </span>
+                            </span>
+            			</div>
+    	    	    </div>
+                </section>
+
+                <section id="experiment-article-section-6">
+                    <div class="icon" id="experiment-article-section-6-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/eval.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-6-heading">
+                        Conclusions
+                    </div>
+
+                    <div class="content" id="experiment-article-section-6-content">
+                        <div class="divContent">
+                            <br><br>
+                            <ul style="color:#cc3300;">
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <li>Flame spreads faster when the tilt angle decreases.</li><br>
+                            <li>Flame spread rate decreases with increase in fuel thickness.</li><br>
+                            <li>Soaking the fuel with another liquid fuel enhances the flame spread rate.</li><br>
+                            </span>
+                            </span>
+                            </ul>                   
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-7">
+                    <div class="icon" id="experiment-article-section-7-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/Precautions.jpg"></div>
+
+                    <div class="heading" id="experiment-article-section-7-heading">
+                        Precautions
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-7-content">
+                        <div class="divContent">
+
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-8">
+                    <div class="icon" id="experiment-article-section-8-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/feedback.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-8-heading">
+                        FAQs
+                    </div>
+
+                    <div class="content" id="experiment-article-section-8-content">
+                        <div class="divContent">
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>Name the different zones in a solid fuel combustion.</li></br>
+                            <li>Why the study of flame spread is important?</li></br>
+                            <li>What are the factors affecting the flame spread rate?</li></br>
+                            <li>How tilt angle affects the flame spread rate?</li></br>
+                            <li>What will happen to the flame spread rate if the paper is corrugated?</li></br>
+                            <li>State the effect of soaking on flame spread rate.</li></br>
+                            </ul>
+                            </span>
+                            </span>
+            			</div>
+                    </div>
+                </section>
+		
+		<section id="experiment-article-section-9">
+                    <div class="icon" id="experiment-article-section-9-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/books.jpg"></div>
+                    <div class="heading" id="experiment-article-section-9-heading">
+            			References                        
+                    </div>
+                    <div class="content" id="experiment-article-section-9-content">
+            			<div class="divContent">
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>J.G. Quintiere, �The effects of angular orientation on fame spread over thin materials�, Fire Safety Journal, Vol. 36, pp. 291-312, 2001.</li></br>
+                            <li>D.P. Mishra, �Fundamentals of Combustion�, <i>Prentice Hall of India</i>, 2008.</li></br>
+                            <li>D.P. Mishra and M. Maheshwari, � An Experimental Study of Flame Spread Over an Inclined Thin Fuel Surface�, <i>Archivum Combustion</i>, Vol. 29, pp. 101�109, 2009.</li></br>
+                            </ul>
+                            </span>
+                            </span>
+            			</div>
+        		    </div>
+		</section>
+            </div>
+        </article>
+	
+
+        <footer  class="footer">
+            <!-- Put the content here -->
+            <div style="margin-left:40%; margin-right:40% ">
+            <a href="../license/index.html" target="_blank" style="margin:auto"> Licensing Terms </a>
+            </div>
+      </footer> 
+    </div>
+</body>
+</html>

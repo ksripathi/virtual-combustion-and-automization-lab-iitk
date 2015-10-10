@@ -1,0 +1,499 @@
+<!-- This file needs to be edited by the lab developer to suit
+the requirements of their lab in particular.-->
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+
+<body>
+    <div id="experiment">
+        <!-- The Experiment Document Container-->
+        <!-- The lab Header contains the logo and the name of the lab,
+  usually displayed on the top of the page-->
+
+        <header class="default" id="experiment-header">
+            <div class="logo" id="experiment-header-logo">
+            <!-- Enclose the logo image of your lab or write it in 
+      text-->
+            <img src="../images/logo.jpg"></div>
+
+            <div class="heading" id="experiment-header-heading">
+                <!-- Write the name of your lab and link it to the home 
+      page of your lab (h1 tag is preferred while writing your 
+      lab name)-->
+                <a href="../index.html">Virtual Combustion and Atomization (VCA) Lab</a>
+            </div><!-- Add any additional element you want to add to the lab 
+    header, For example : Help (Enclosing them with suitable 
+    div is recommended)-->
+        </header><!-- The lab article is the main content area where all the 
+  experiment content sits-->
+
+        <article id="experiment-article">
+            <!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+
+            <div class="breadcrumb" id="experiment-article-breadcrumb"></div>
+
+            <header class="heading" id="experiment-article-heading">
+                Visualization of swirling flow and flame in a burner 
+            </header><!-- Navigation menu is useful to organize the view of 
+      multiple sections inside the article-->
+
+            <nav class="default" id="experiment-article-navigation">
+                <ul id="experiment-article-navigation-menu">
+                    <!-- The menu can be dynamically generated to contain 
+          the headings of your sections or instead write the 
+          menu items of your choice individually enclosedu in 
+          &lt;li&gt; tag as shown below-->
+                </ul>
+            </nav><!-- All the sections of your lab or experiment can be 
+      enclosed together with a div element as shown below-->
+
+            <div id="experiment-article-sections">
+                <!-- First section of the article-->
+
+                <section id="experiment-article-section-1">
+                    <div class="icon" id="experiment-article-section-1-icon">
+                    <!-- Enclose the icon image of your lab -->
+                    <img src="../images/introduction.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+          div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-1-heading">
+                        Aim
+                    </div><!-- Write the section content inside a paragraph 
+          element, You can also include images with &lt;img&gt; tag -->
+                    <div class="content" id=
+                    "experiment-article-section-1-content">
+                        <div class="divContent">
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>To study flame stabilization by swirl flow burner.</li><br>
+                            <li>To study the effect of swirl on
+                            <ul> 
+                            <li>Cold flow visualization</li>
+                            <li>Visible flame height</li>
+                            <li>Blowout</li><br> 
+                            </ul>
+                            </li><br>
+                            </ul>
+                            </span>
+                            </span>
+                        </div>
+                    </div>
+                </section><!-- Second section of the article-->
+
+                <section id="experiment-article-section-2">
+                    <div class="icon" id="experiment-article-section-2-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/theory.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-2-heading">
+                        Intro
+                    </div><!-- Write the section content inside a paragraph 
+        element, we can also include images with &lt;img&gt; tag -->
+
+                    <div class="content" id="experiment-article-section-2-content">
+                        <div class="divContent">
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li><b>Need for swirl</b>: imparting swirl into mainstream flow enhances flame stabilization.</li><br>
+                            <li>Swirl addition also enhances the rate of entrainment of fuel into air stream.</li><br> 
+                            <li>The axial stream wise velocity decays with the swirl addition.</li><br>
+                            <li>The radial and axial pressure gradient creates the <b>recirculation region</b>, which stabilizes the flame by matching the flame speed with flow velocity.</li><br>
+                            <li>Swirl addition in the diffusion flame alters the flame shape significantly, thereby the flame shape can be adjusted to the geometry of the chamber.</li><br>
+                            <li>The recirculation region acts as a bluff body stabilizer that holds the flame from the base, thereby the blowout is postponed.</li><br>
+                            <li><b>Major applications</b>: power plants, furnaces, gas turbine engines and chemical industries.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+            			</div>
+                    </div><br>
+                </section>
+
+                <section id="experiment-article-section-3">
+                    <div class="icon" id="experiment-article-section-3-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/theory.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-3-heading">
+                        Theory
+                    </div>
+
+                    <div class="content" id="experiment-article-section-3-content">
+			            <div claass="divContent">				
+			                <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <img src="../images/picture28.jpg" height="300" width="200" align="right">
+                            <li>In diffusion flame, reaction occurs only at the interface between fuel and oxidizer.</li><br>
+                            <li>In turbulent diffusion flames, turbulent convection mixes fuel and air macroscopically, followed by molecular diffusion which makes the reactants ready for chemical reaction to take place.</li><br>
+                            <li>Flame front is characterized by two zones
+                            <ol>
+                            <li>blue zone (premix)  
+                            <li> Yellow zone (diffusion)
+                            </ol>
+                            </li><br>
+                            <li>The yellow luminescence is due to the presence of soot particles and the blue premixed is due to CH chemiluminescence signatures.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+                            <br><br>
+
+                            <h2>Swirl flow</h2>
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <img src="../images/picture29.jpg" height="500" width="350" align="right">
+                            <li>The expression for swirl number (S) is:</li>
+
+
+                            <img src="../images/picture30.jpg" height="60" width="90" align="centre">
+
+                            <p>
+                            where,<br> 	
+                            G<sub>x</sub>:	Axial flux of linear momentum<br>
+                            G<sub>?</sub>:	Axial flux of angular momentum<br>
+                            R:	Exit radius of burner<br>
+                            </p>
+                            <br>
+
+                            <li>Air is introduced <b>tangentially</b> into a burner to set up swirling flow  in addition to axial jet flow.</li><br>
+                            <li><b>Adverse pressure gradients</b> in the flow field are induced to balance the centrifugal forces.</li><br>
+                            <li>For low swirl numbers (<i>weak swirl</i>), no recirculation zone will be established and for high swirl numbers strong swirl , adverse pressure gradient along the axial jet axis is large enough to form <b>recirculation zones</b>.</li><br>
+                            <li>Recirculation zone acts as the storage of heat and chemically active species.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+            			</div>
+		            </div>
+		    </section>
+
+                <section id="experiment-article-section-4">
+                    <div class="icon" id="experiment-article-section-4-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/procedure.jpg"></div>
+
+                    <div class="heading" id="experiment-article-section-4-heading">
+                        Procedure
+                    </div>
+
+                    <div class="content" id="experiment-article-section-4-content">
+                        <div class="divContent">                         
+                            <br><br>
+                            <img src="../images/picture31.jpg" height="550" width="700" align="center">
+
+                            <br><br>
+
+                            <h2>Burner Schematic</h2>
+                            <br><br>
+                            <img src="../images/picture32.jpg" height="400" width="550" align="center">
+                            <br><br>
+
+
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>The burner is kept in an enclosed chamber to avoid the entrainment of ambient air.</li><br>
+                            <li>Three burner inlets: 
+                            <ol>
+                            <li>axial air inlet</li>
+                            <li>tangential air inlet</li>
+                            <li>fuel inlet</li>
+                            </ol>
+                            </li><br> 
+                            <li>Calibrated rotameters are used to measure the flow rate of fuel and air supplied to the burner.</li><br> 
+                            <li>The supply air and fuel are controlled through needle valves fitted just before the rotameters.</li><br> 
+                            <li>Screens are provided before the burner exit to remove the nonuniformities in the inlet flow.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+
+                            <br>
+
+                            <h2>Experimental Procedure</h2>
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>Open the main air inlet valve.</li><br>
+                            <li>Set the desired pressure by adjusting the inlet pressure regulator.</li><br>
+                            <li>Now open the needle valve and set the desired axial and tangential air flow rates.</li><br>
+                            <li>Vary the fuel flow rate and maintain the airflow rate constant.</li><br>
+                            <li>Then ignite the mixture at the burner exit.</li><br>
+                            <li>Wait for sometime till no further changes in the flame shape is observed.</li><br>
+                            <li>Ensure that the camera is aligned properly to avoid systematic errors.</li><br>
+                            <li>Acquire the flame image through the imaging system.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-5">
+                    <div class="icon" id="experiment-article-section-5-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/sim.jpg"></div>
+
+                    <div class="heading" id="experiment-article-section-5-heading">
+                        Results
+                    </div>
+
+                    <div class="content" id="experiment-article-section-5-content">
+                        <div class="divContent">
+                            <h2>Cold flow visualization</h2>
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <img src="../images/picture33.jpg" height="220" width="320" align="right">
+                            <li>Flow visualization is carried out by illuminating the jet with a laser sheet (532 nm) passing through the center of the jet.</li><br>
+                            <li>The jet issued from the burner exit initially has sufficient momentum and hence the jet is undisrupted.</li><br>
+                            <li>Subsequently, this jet interacts with the ambient air to form vortices at the shear layer.
+                            <br>
+                            W<sub>Cr</sub> : minimum width after flow gradually starts spreading in radial direction.
+                            <br>
+                            L<sub>Cr</sub> : minimum length above which first vortex formation is observed.
+                            </li><br>
+                            </ul>
+                            </span>
+                            </span>
+
+                            <br>
+
+                            <h2>Effect of swirl number on cold flow</h2>
+                            <br><br>
+                            <img src="../images/picture34.jpg" height="350" width="900" align="center">
+                            <br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>The neck region got widened with increase in swirl number.</li><br>
+                            <li>Increase in jet width is due to the enhanced entrainment and mixing of ambient air with the jet.</li><br>
+                            <li>At S = 0, first vortex formation is observed at <i>L<sub>Cr</sub>/D</i>  = 2.8  and <i>W<sub>Cr</sub></i> = d.</li><br>
+                            <li>At S = 2, <i>L<sub>Cr</sub>/D</i>  is decreased by 39 % and <i>W<sub>Cr</sub>/d</i> increases by 36 %.</li><br>
+                            <li><i>L<sub>Cr</sub>/D</i> and <i>W<sub>Cr</sub>/D</i> are decreased almost by 87% and 90% for S = 0 to 9.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+
+                            <br>
+
+                            <h2>Terminologies</h2>
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <p style="color:#cc3300;">
+                            <img src="../images/picture35.jpg" height="280" width="200" align="right">
+                            <b>Visible flame length, <i>L<sub>v</sub></i></b>: Total height of visible flame region.
+                            <br><br>
+                            <b>Lift-off height, <i>L<sub>f</sub></i></b>: The vertical distance from burner exit to the base of lifted off  flame.
+                            <br><br>
+                            <b>Flame blow-out limits</b>: Maximum air flow rate beyond which flame cannot be stabilized. 
+                            <br><br>
+                            <b>Momentum Flux Ratio, <i>MFR</i></b>: Ratio of tangential air jet momentum to the axial air jet momentum 
+                            <br><br>
+                            <img src="../images/picture99.jpg" height="110" width="450" align="center">
+                            </p>
+                            </span>
+                            </span>
+
+                            <br><br>
+
+                            <h2>Effect of swirl on visible flame and lift-off</h2>
+                            <br><br>
+                            <img src="../images/picture36.jpg" height="400" width="600" align="center">
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>The luminous zone height increases with increase in fuel flow rate.</li><br>
+                            <li>With increase in swirl number, the luminous zone of the flame reduces.</li><br>
+                            <li>The lift- off height (<i>L<sub>f</sub></i>) decreases with increase in swirl number.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+
+                            <br>
+
+                            <h2>Effect of swirl on visible flame length</h2>
+                            <br><br>
+                            <img src="../images/picture37.jpg" height="400" width="550" align="center">
+                            <br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>Visible flame length, <i>L<sub>v</sub></i> increases with momentum flux ratio, <i>MFR</i> = 3�30 and remains almost constant beyond <i>MFR</i> = 30.</li><br>
+                            <li>Almost 25 % reduction in flame length is achieved at S = 9 and <i>MFR</i>.</li><br>
+                            <li>In buoyancy dominant flow, kinetic energy of flow is not sufficient, so reaction zone is distributed, leading to an increase in flame length.</li><br>
+                            <li>In momentum dominant regime, enough kinetic energy leads to better mixing of reactants and thus results in negligible change in <i>L<sub>v</sub></i>.</li><br>
+                            <li>Swirling improves mixing in radial direction (as discussed in cold flow), therefore length of combustion zone and thereby <i>L<sub>v</sub></i> decreases.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+
+                            <br>
+
+                            <h2>Effect of swirl on blowout limit</h2>
+                            <br>
+                            <img src="../images/picture38.jpg" height="350" width="900" align="center">
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <br>
+                            <li>Flame blowout is examined by varying the air flow rate until the flame blows out.</li><br>
+                            <li>Blowout limit gets enhanced with increase in S = 0�9 for fuel flow rate of 3�5 lpm.</li><br>
+                            <li>For 3 lpm fuel flow rate and S = 0, overall F near blow out  is  ~ l.2.</li><br>
+                            <li>A minimum F<sub>LBO</sub> (= 0.44) is observed for 5 lpm fuel flow rate and S = 9.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+
+            			</div>
+    	    	    </div>
+                </section>
+
+                <section id="experiment-article-section-6">
+                    <div class="icon" id="experiment-article-section-6-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/eval.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-6-heading">
+                        Conclusions
+                    </div>
+
+                    <div class="content" id="experiment-article-section-6-content">
+                        <div class="divContent">
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>Cold flow visualization reveals an increase in the jet width with swirl addition.
+                            <ul> 
+                            <li>With increase in swirl number, the ambient air entrainment increases and as a result, the jet width also increases.</li>
+                            </ul>
+                            </li><br>
+                            <li>The visible flame length 
+                            <ul> 
+                            <li>decreases with <i>MFR</i> for buoyancy dominant regime (<i>MFR</i> = 3 � 30)</li> 
+                            <li>remains almost constant for momentum dominant regime (<i>MFR</i> = 30 � 80)</li>
+                            </ul>
+                            </li><br> 
+                            <li>The visible flame length decreases when swirl is increased.</li><br>
+                            <li>Increased swirl results in well mixed zones near burner exit and flame stabilization near burner exit.</li><br> 
+                            <li>Blowout limit extends with swirl number.</li><br>
+                            </ul>
+                            </span>
+                            </span>                    
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-7">
+                    <div class="icon" id="experiment-article-section-7-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/Precautions.jpg"></div>
+
+                    <div class="heading" id="experiment-article-section-7-heading">
+                        Precautions
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-7-content">
+                        <div class="divContent">
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>Ensure that there is no leakage in the fuel line.</li><br>
+                            <li>Turn on the exhaust fan before starting the experiment.</li><br>
+                            <li>Check whether the valves are functioning properly.</li><br>
+                            <li>Camera has to be kept at sufficient distance from the flame.</li><br>
+                            <li>After completing the experiment, turn off the valve in the fuel cylinder and continue the air flow for certain time.</li><br>
+                            <li>Hood should be used for evacuation of the exhaust gas.</li><br>
+                            <li>Keep the fire extinguisher nearby the experimental setup.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-8">
+                    <div class="icon" id="experiment-article-section-8-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/feedback.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-8-heading">
+                        FAQs
+                    </div>
+
+                    <div class="content" id="experiment-article-section-8-content">
+                        <div class="divContent">
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>What are the different types of flames?</li><br>
+                            <li>Define swirl number.</li><br>
+                            <li>What are the ways to introduce swirl in a flow?</li><br>
+                            <li>What are the differences between a plain jet flow and a swirl jet flow?</li><br> 
+                            <li>Why <i>L<sub>Cr</sub>/D</i> decreases and <i>W<sub>Cr</sub>/D</i> increases with swirl number?</li><br>
+                            <li>What are the advantages of a swirl flame over a simple jet flame?</li><br>
+                            <li>How does the swirl number affects the flame stability?</li><br>
+                            <li>What is the soot free length?</li><br>
+                            <li>What is the role of swirl number in determining the flame length?</li><br>
+                            <li>Will <i>MFR</i> affects the flame length? Explain.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+            			</div>
+                    </div>
+                </section>
+		
+		<section id="experiment-article-section-9">
+                    <div class="icon" id="experiment-article-section-9-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/books.jpg"></div>
+                    <div class="heading" id="experiment-article-section-9-heading">
+            			References                        
+                    </div>
+                    <div class="content" id="experiment-article-section-9-content">
+            			<div class="divContent">
+
+            			</div>
+        		    </div>
+		</section>
+            </div>
+        </article>
+	
+
+        <footer  class="footer">
+            <!-- Put the content here -->
+            <div style="margin-left:40%; margin-right:40% ">
+            <a href="../license/index.html" target="_blank" style="margin:auto"> Licensing Terms </a>
+            </div>
+      </footer> 
+    </div>
+</body>
+</html>

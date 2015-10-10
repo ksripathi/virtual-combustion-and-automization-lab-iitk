@@ -1,0 +1,555 @@
+<!-- This file needs to be edited by the lab developer to suit
+the requirements of their lab in particular.-->
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+
+<body>
+    <div id="experiment">
+        <!-- The Experiment Document Container-->
+        <!-- The lab Header contains the logo and the name of the lab,
+  usually displayed on the top of the page-->
+
+        <header class="default" id="experiment-header">
+            <div class="logo" id="experiment-header-logo">
+            <!-- Enclose the logo image of your lab or write it in 
+      text-->
+            <img src="../images/logo.jpg"></div>
+
+            <div class="heading" id="experiment-header-heading">
+                <!-- Write the name of your lab and link it to the home 
+      page of your lab (h1 tag is preferred while writing your 
+      lab name)-->
+                <a href="../index.html">Virtual Combustion and Atomization (VCA) Lab</a>
+            </div><!-- Add any additional element you want to add to the lab 
+    header, For example : Help (Enclosing them with suitable 
+    div is recommended)-->
+        </header><!-- The lab article is the main content area where all the 
+  experiment content sits-->
+
+        <article id="experiment-article">
+            <!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+
+            <div class="breadcrumb" id="experiment-article-breadcrumb"></div>
+
+            <header class="heading" id="experiment-article-heading">
+                Characterization of droplet combustion  
+            </header><!-- Navigation menu is useful to organize the view of 
+      multiple sections inside the article-->
+
+            <nav class="default" id="experiment-article-navigation">
+                <ul id="experiment-article-navigation-menu">
+                    <!-- The menu can be dynamically generated to contain 
+          the headings of your sections or instead write the 
+          menu items of your choice individually enclosedu in 
+          &lt;li&gt; tag as shown below-->
+                </ul>
+            </nav><!-- All the sections of your lab or experiment can be 
+      enclosed together with a div element as shown below-->
+
+            <div id="experiment-article-sections">
+                <!-- First section of the article-->
+
+                <section id="experiment-article-section-1">
+                    <div class="icon" id="experiment-article-section-1-icon">
+                    <!-- Enclose the icon image of your lab -->
+                    <img src="../images/introduction.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+          div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-1-heading">
+                        Aim
+                    </div><!-- Write the section content inside a paragraph 
+          element, You can also include images with &lt;img&gt; tag -->
+                    <div class="content" id=
+                    "experiment-article-section-1-content">
+                        <div class="divContent">
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>To introduce droplet combustion under controlled laboratory conditions.</li><br>
+                            <li>Study the effect of gravity on droplet burning rate.</li><br>
+                            <li>Study the effect of pressure on droplet burning rate.</li><br>
+                            <li>Verify the validity of D<sup>2</sup> law of droplet burning.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+                        </div>
+                    </div>
+                </section><!-- Second section of the article-->
+
+                <section id="experiment-article-section-2">
+                    <div class="icon" id="experiment-article-section-2-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/theory.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-2-heading">
+                        Intro
+                    </div><!-- Write the section content inside a paragraph 
+        element, we can also include images with &lt;img&gt; tag -->
+
+                    <div class="content" id="experiment-article-section-2-content">
+                        <div class="divContent">
+                            <h2>Isolated droplet & gravity</h2>
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>The fuel is burnt either as clusters of droplets or isolated droplet. <b>Coupling of two-phase flow, phase change, turbulence, and combustion</b> in these conditions results in a complex system.</li><br>
+                            <li>These processes can be understood better under well-defined and controlled conditions in the laboratory using an <b>isolated droplet</b>. Most of the processes observed in actual spray combustion can be investigated in laboratory. The resulting knowledge and quantitative data are useful for design of liquid fuel based combustors.</li><br>
+                            <li>Better control (mainly buoyancy) is achieved when effects of gravity are cancelled out. This is established using microgravity conditions. Such experiments are conducted high above the earth's atmosphere (e.g., in a space shuttle/laboratory) or in simulated microgravity on the earth using a <b>drop tower</b>.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+
+                            <br>
+
+                            <h2>Aviation turbine fuel</h2>
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>Liquid fuel in the form of spray is injected into oxidizing environment in many combustion systems, including rocket engines, gas turbine engines, diesel engines, etc.</li><br>
+                            <li>
+                            We will consider Aviation Turbine Fuel (ATF) in the experiments. It is a kerosene based fuel commonly called Jet A1. ATF is a multicomponent fuel and its typical composition (in addition to kerosene which is ~75 %) and other relevant properties are summarized below. 
+                            <ol>
+                            <li>Aromatics (% v/v): 20</li>
+                            <li>Napthenes (% v/v): 1.5</li>
+                            <li>Olefins (% v/v): 5</li>
+                            <li>Boiling point temperature range: 450-553 K</li>
+                            <li>Calorific value: 42.8 MJ/kg fuel</li>
+                            <ol>
+                            </li><br>
+                            </ul>
+                            </span>
+                            </span>
+            			</div>
+                    </div><br>
+                </section>
+
+                <section id="experiment-article-section-3">
+                    <div class="icon" id="experiment-article-section-3-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/theory.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-3-heading">
+                        Theory
+                    </div>
+
+                    <div class="content" id="experiment-article-section-3-content">
+			            <div claass="divContent">				
+                            <h2>Droplet Combustion Processes</h2>
+                            <br><br>
+
+                            <img src="../images/picture63.jpg" height="350" width="750" align="center">
+
+                            <br><br>
+
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <p style="color:#cc3300;">
+                            Factors affecting the shape of the flame front:<br>
+                            (a) Zero gravity			: spherical flame front (no buoyancy)<br>
+                            (b) Normal gravity			: elongated (due to natural convection)<br>
+                            (c) Forced convection condition	        : fame aligned with flow<br>
+
+                            <br>
+
+                            Energy required to vaporize the liquid fuel (<i>Q<sub>V</sub></i>):
+                            <br><br>
+                            <img src="../images/picture64.jpg" height="150" width="600" align="center">
+                            <br><br>
+                            <ul style="color:#cc3300;">
+                            <li>Spherically symmetric droplet is ideal case for studying droplet combustion and describing the combustion process mathematically.</li><br>
+                            <li>
+                            Steps in droplet combustion are (see figure for explanation):
+                            <ul>
+                            <li>Fuel vaporizes at the droplet surface and diffuses outward.</li>
+                            <li>Simultaneously, oxidizer diffuses inward from the ambient environment.</li> 
+                            <li>The fuel and oxidizer react stoichiometrically, resulting in a zone of intense non-premixed flame.</li> 
+                            <li>Heat transfer by conduction and radiation occurs in two directions; outward from the flame to infinity and inward to the droplet surface. The inward transferred heat is utilized for liquid vaporization.</li>
+                            </ul>
+                            </li><br>
+                            </ul>
+                            <img src="../images/picture65.jpg" height="300" width="800" align="center">
+                            </span>
+                            </span>
+
+
+                            <br><br>
+
+
+
+                            <h2>One dimensional model of droplet combustion</h2>
+                            <img src="../images/picture66.jpg" height="500" width="800" align="center">
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ol style="color:#cc3300;">
+                            <b>Assumptions</b>
+                            <br><br>
+                            <li>Single droplet in quiescent atmosphere.</li><br>
+                            <li>Temperature inside the droplet is uniform.</li><br>
+                            <li>Density of liquid fuel much higher than the gas phase.</li><br>
+                            <li>Fuel is a single component with no solubility for gases.</li><br>
+                            <li>Flow velocities are assumed to be low.</li><br>
+                            <li>Single step irreversible reaction.</li><br> 
+                            <li>Thin flame approximation is valid.</li><br>
+                            <li>Constant thermo-physical properties.</li><br>
+                            <li>Unity Lewis number.</li><br>
+                            <li>Radiation heat transfer is neglected.</li><br> 
+                            <li>No other phase is formed in the liquid fuel droplet.</li><br>
+                            </ol>
+                            </span>
+                            </span>
+
+                            <br>
+
+                            <h2>D<sup>2</sup> Law</h2>
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>Mathematical description is in terms of the "D<sup>2</sup> law". The assumptions lead to closed form analytical expressions for the droplet burning rate, flame location (standoff location from the gas-liquid interface), and flame temperature.</li><br>
+                            <li>Refer [1] for detailed derivation.</li><br>
+                            <li><b>Brief derivation</b>: Using continuity equation for the rate of decrease of droplet mass,
+
+                            <img src="../images/picture67.jpg" height="50" width="120" align="center">
+                            <br>
+                            m<sub>D</sub>: mass of droplet<br>
+                            m<sub>F</sub>: mass burning rate of fuel<br>
+                            t: time<br>
+
+                            and the mass burning rate of fuel in the droplet, following expression is obtained for the rate of decrease in droplet diameter.
+
+                            <img src="../images/picture68.jpg" height="50" width="100" align="center">
+
+
+                            which on integration leads to the D<sup>2</sup> law: 
+
+                            <img src="../images/picture69.jpg" height="40" width="120" align="center">
+                            D<sub>0</sub>: initial droplet diameter<br>
+                            D: droplet dimeter<br>
+                            K: burning rate constant<br>
+                            </li><br>
+
+                            <li>As per this model, droplet burning rate, flame stand-off location (r<sub>F</sub>), and flame temperature remain constant for the duration of droplet burning.</li><br> 
+                            <li>We shall verify the D<sup>2</sup> law using experimental data.</li><br>
+                            </ul>
+                            </p>
+                            </span>
+                            </span>
+
+                            <br><br>
+            			</div>
+		            </div>
+		    </section>
+
+                <section id="experiment-article-section-4">
+                    <div class="icon" id="experiment-article-section-4-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/procedure.jpg"></div>
+
+                    <div class="heading" id="experiment-article-section-4-heading">
+                        Procedure
+                    </div>
+
+                    <div class="content" id="experiment-article-section-4-content">
+                        <div class="divContent">                         
+                            <h2>Experimental setup</h2>
+                            <br><br>
+                            <span style="font-family: calibri;">
+                                <span style="font-size: 1.5em;">
+                                    <p style="color:#cc3300;">      
+                                         <b>Combustion Chamber</b>
+                                         <br><br>
+                                         <img src="../images/picture70.jpg" height="280" width="600" align="center">
+                                         <br><br>
+                                         <b>Drop Tower</b>
+                                         <br><br>
+                                         <img src="../images/picture71.jpg" height="500" width="300" align="center">
+                                         <br><br>
+                                         <b>Measurement Capsule</b>
+                                         <br><br>
+                                         <img src="../images/picture72.jpg" height="350" width="700" align="center">
+                                         <br><br>
+                                         <b>Use of Drag Shield</b>  
+                                         <br><br>
+                                         <img src="../images/picture73.jpg" height="400" width="700" align="center">
+                                   </p>
+                                </span>
+                            </span>
+                            <br><br>
+                            <span style="font-family: calibri;">
+                               <span style="font-size: 1.5em;">
+                                   <ul style="color:#cc3300;">
+                                       <li>For micro gravity experiment, the measurement time (1 s approx.) is enough to study the burning history of small diameter droplets. Hence, the corresponding height of the tower was fixed at 6.5 m giving allowance for the foundation and damping system to arrest the fall of the combustion chamber. <b>The drop height was 5 m</b>.</li><br>
+                                        <li>The purpose of the drag shield is to reduce the air resistance acting on the combustion chamber and aids in achieving microgravity condition.</li><br>
+                                        <li>
+                                            The capsule comprised of:
+                                                <ul>
+                                                    <li>The combustion chamber</li>
+                                                    <li>The light source (A  15 W compact fluorescent lamp)</li>
+                                                    <li>CCD video camera</li>
+                                                    <li>12 V D.C source</li>
+                                                    <li>220 V AC supply switch board</li>
+                                                    <li>Ignition apparatus</li>
+                                                </ul>
+                                        </li><br>
+                                   </ul>
+                                </span>
+                            </span>
+
+                            <br>
+
+                            <h2>Imaging System</h2>
+                            <br><br>
+                            <span style="font-family: calibri;">
+                                <span style="font-size: 1.5em;">
+                                    <ul style="color:#cc3300;">
+                                        <li>In order to capture the droplet combustion process, backlighting was used. Luminous photography was used to study flame structure of the droplet during the entire burning process.</li><br> 
+                                        <li>A 15 W CFL bulb was placed right behind the droplet in the optical axis of the video camera to backlit the image.</li><br>  
+                                        <li>The video camera (30 fps) used is a Sony HD CCD camera with an optical magnification of 10x in order to achieve further magnification without compromising the clarity of the acquired images.</li><br>
+                                    </ul>
+                                </span>
+                            </span>
+
+                            <br>
+
+                            <h2>Experimental Procedure</h2>
+                            <br><br>
+                            <span style="font-family: calibri;">
+                                <span style="font-size: 1.5em;">
+                                    <ol style="color:#cc3300;">
+                                        <b>For micro gravity experiments:</b>
+                                        <br><br>
+                                        <li>Install the instruments and test chamber. Install the camera and illumination bulb.</li><br>
+                                        <li>Lift the capsule to the required height on the drop tower (~7 m) and transfer the load onto the release mechanism. Maintain center of gravity of the load properly.</li><br>
+                                        <li>Form the droplet on the bead of glass filament using the injector.</li><br> 
+                                        <li>Activate the imaging system and perform optical alignment.</li><br> 
+                                        <li>Heat the ignition coil for one or two seconds and then trigger the circuit using the circuit control panel.</li><br> 
+                                        <li>Activate the release mechanism as soon as the drop starts burning. Initial combustion occurs under normal gravity and subsequently under micro gravity.</li><br>
+                                        <li>Perform image analysis to obtain droplet diameters at different time instants.</li><br>
+                                    </ol>
+                                </span>
+                            </span>
+                            <br>
+                            <span style="font-family: calibri;">
+                                <span style="font-size: 1.5em;">
+                                <ul style="color:#cc3300;">
+                                <b>For normal gravity experiments:</b>
+                                <br><br>
+                                Above procedure is followed <b>except steps 2 and 6</b>.
+                                </ul>
+                                </span>
+                                </span>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-5">
+                    <div class="icon" id="experiment-article-section-5-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/sim.jpg"></div>
+
+                    <div class="heading" id="experiment-article-section-5-heading">
+                        Results
+                    </div>
+
+                    <div class="content" id="experiment-article-section-5-content">
+                        <div class="divContent">
+                            <h2>Test Conditions</h2>
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>Gravity Conditions:
+                            <ul> 
+                            <li>1g (normal gravity)</li>
+                            <li>10<sup>-5</sup>g (micro gravity)</li>
+                            </ul>
+                            </li><br>
+                            <li>Gauge pressure conditions : 1 bar, 4 bar, 8 bar</li><br>
+                            </ul>
+                            </span>
+                            </span>
+
+                            <br>
+
+                            <h2>Luminous images of droplet combustion</h2>
+                            <br><br>
+                            <img src="../images/picture74.jpg" height="600" width="800" align="center">
+                            <br><br>
+
+                            <h2>Backlit images of droplet combustion</h2>
+                            <br><br>
+                            <p style="color:#cc3300;">
+                            Backlit images <b>(shown here under 1g)</b> reveal the receding of droplet as the burning progresses.
+                            </p>
+                            <br>
+                            <img src="../images/picture75.jpg" height="600" width="800" align="center">
+
+                            <br><br>
+
+                            <h2>Effect of gravity on burning rate</h2>
+                            <br><br>
+                            <img src="../images/picture76.jpg" height="600" width="800" align="center">
+
+                            <br><br>
+
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>Fluctuations in the regression of droplet diameter are due to initial transients.</li><br>
+                            <li>The burning rate of droplet under normal gravity is higher than that of  micro gravity.</li><br>
+                            <li>Buoyancy under normal gravity results in increased motion of fuel vapors inside the droplet. Thus, heat transfer inside and transport of fuel vapors to the flame front is enhanced and burning rate increases consequently.</li><br> 
+                            </ul>
+                            </span>
+                            </span>
+
+                            <br><br>
+
+                            <h2>Effect of pressure on burning rate</h2>
+                            <br><br>
+                            <img src="../images/picture77.jpg" height="600" width="800" align="center">
+                            <br><br>
+                            <img src="../images/picture78.jpg" height="600" width="800" align="center">
+
+                            <br><br>
+
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li><b>Normal gravity droplet burning exhibits higher burning rate</b> compared to the microgravity case due to <b>buoyancy effects</b> as seen in the ambient pressure case. Similar trends are observed at higher pressures of 4 and 8 bar in the above figures.</li><br> 
+                            <li><b>Burning rate of droplet increases with chamber pressure</b> due to enhanced vaporization rates and reaction rates. In case of normal gravity, increased buoyancy at higher pressure also causes enhancement in the burning rate.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+            			</div>
+    	    	    </div>
+                </section>
+
+                <section id="experiment-article-section-6">
+                    <div class="icon" id="experiment-article-section-6-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/eval.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-6-heading">
+                        Conclusions
+                    </div>
+
+                    <div class="content" id="experiment-article-section-6-content">
+                        <div class="divContent">
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>Buoyancy changes the shape of droplet and enhances the droplet burning rate in normal gravity droplet combustion in comparison to micro gravity.</li><br>
+                            <li>Burning rate increases at higher chamber pressure for both normal and micro gravity conditions due to enhanced vaporization rates and buoyancy effects that lead to increase in reaction rates.</li><br>
+                            <li>D<sup>2</sup> law is shown to be valid even for high operating pressure and both under normal gravity and micro gravity. Good fitting accuracy was obtained since initial transients were suppressed at high pressure.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-7">
+                    <div class="icon" id="experiment-article-section-7-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/Precautions.jpg"></div>
+
+                    <div class="heading" id="experiment-article-section-7-heading">
+                        Precautions
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-7-content">
+                        <div class="divContent">
+
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-8">
+                    <div class="icon" id="experiment-article-section-8-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/feedback.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-8-heading">
+                        FAQs
+                    </div>
+
+                    <div class="content" id="experiment-article-section-8-content">
+                        <div class="divContent">
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>What care should be taken in the design of combustion chamber for high pressure tests?</li><br>
+                            <li>What is the role of drag shield in the experiment for micro gravity?</li><br>
+                            <li>What is the effect of droplet holder on the combustion process?</li><br>
+                            <li>Sketch the instantaneous variations of temperature, fuel mass fraction and oxygen mass fraction with respect to radial position during droplet combustion.</li><br> 
+                            <li>What will be the effect of air velocity on droplet combustion process?</li><br>
+                            <li>What are the important assumptions made in the derivation of D<sup>2</sup> law?</li><br> 
+                            <li>What might happen in case the chamber pressure is higher than the critical pressure of fuel vapors?</li><br>
+                            </ul>
+                            </span>
+                            </span>
+            			</div>
+                    </div>
+                </section>
+		
+		<section id="experiment-article-section-9">
+                    <div class="icon" id="experiment-article-section-9-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/books.jpg"></div>
+                    <div class="heading" id="experiment-article-section-9-heading">
+            			References                        
+                    </div>
+                    <div class="content" id="experiment-article-section-9-content">
+            			<div class="divContent">
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>D. P. Mishra, "Fundamentals of Combustion", <i>PHI Learning Private Limited</i>, 2010.</li><br>
+                            <li>D.B. Spalding, "Combustion and Mass Transfer", <i>Pergamon</i>, 1979.</li><br>
+                            <li>D.B. Spalding, "Some Fundamentals of Combustion", <i>Butterworths</i>, 1955.</li><br>
+                            <li>D.E. Rosner, "On liquid droplet combustion at high pressures", AIAA J., Vol. 5 1967, p. 163.</li><br>
+                            <li>S. Kumagai, T. Sakai, S. Okajima, "Combustion of free fuel droplets in a freely falling chamber", Symposium (International) on Combustion,�Vol. 13, 1971, p. 779.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+            			</div>
+        		    </div>
+		</section>
+            </div>
+        </article>
+	
+
+        <footer  class="footer">
+            <!-- Put the content here -->
+            <div style="margin-left:40%; margin-right:40% ">
+            <a href="../license/index.html" target="_blank" style="margin:auto"> Licensing Terms </a>
+            </div>
+      </footer> 
+    </div>
+</body>
+</html>

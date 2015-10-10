@@ -1,0 +1,523 @@
+<!-- This file needs to be edited by the lab developer to suit
+the requirements of their lab in particular.-->
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+
+<body>
+    <div id="experiment">
+        <!-- The Experiment Document Container-->
+        <!-- The lab Header contains the logo and the name of the lab,
+  usually displayed on the top of the page-->
+
+        <header class="default" id="experiment-header">
+            <div class="logo" id="experiment-header-logo">
+            <!-- Enclose the logo image of your lab or write it in 
+      text-->
+            <img src="../images/logo.jpg"></div>
+
+            <div class="heading" id="experiment-header-heading">
+                <!-- Write the name of your lab and link it to the home 
+      page of your lab (h1 tag is preferred while writing your 
+      lab name)-->
+                <a href="../index.html">Virtual Combustion and Atomization (VCA) Lab</a>
+            </div><!-- Add any additional element you want to add to the lab 
+    header, For example : Help (Enclosing them with suitable 
+    div is recommended)-->
+        </header><!-- The lab article is the main content area where all the 
+  experiment content sits-->
+
+        <article id="experiment-article">
+            <!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+
+            <div class="breadcrumb" id="experiment-article-breadcrumb"></div>
+
+            <header class="heading" id="experiment-article-heading">
+		Numerical characterization of laminar premixed methane-air flames
+            </header><!-- Navigation menu is useful to organize the view of 
+      multiple sections inside the article-->
+
+            <nav class="default" id="experiment-article-navigation">
+                <ul id="experiment-article-navigation-menu">
+                    <!-- The menu can be dynamically generated to contain 
+          the headings of your sections or instead write the 
+          menu items of your choice individually enclosedu in 
+          &lt;li&gt; tag as shown below-->
+                </ul>
+            </nav><!-- All the sections of your lab or experiment can be 
+      enclosed together with a div element as shown below-->
+
+            <div id="experiment-article-sections">
+                <!-- First section of the article-->
+
+                <section id="experiment-article-section-1">
+                    <div class="icon" id="experiment-article-section-1-icon">
+                    <!-- Enclose the icon image of your lab -->
+                    <img src="../images/introduction.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+          div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-1-heading">
+                        Aim
+                    </div><!-- Write the section content inside a paragraph 
+          element, You can also include images with &lt;img&gt; tag -->
+                    <div class="content" id=
+                    "experiment-article-section-1-content">
+                        <div class="divContent">
+			                <br><br>
+			                <span style="font-family: calibri;">
+			                <span style="font-size: 1.5em;">
+			                <ul style="color:#cc3300;">
+			                <li>To introduce numerical experimentation in combustion.</li><br>
+			                <li>Study the aspects of flame structure not accessible to physical experiments.</li><br>
+			                <li>Study the effect of equivalence ratio on flame burning velocity.</li><br>
+			                <li>Summarize and verify observations of the physical experiments.</li><br>
+			                </ul>
+			                </span>
+			                </span>
+                        </div>
+                    </div>
+                </section><!-- Second section of the article-->
+
+                <section id="experiment-article-section-2">
+                    <div class="icon" id="experiment-article-section-2-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/theory.jpg"></div>
+                    <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+
+                    <div class="heading" id=
+                    "experiment-article-section-2-heading">
+                        Intro
+                    </div><!-- Write the section content inside a paragraph 
+        element, we can also include images with &lt;img&gt; tag -->
+
+                    <div class="content" id="experiment-article-section-2-content">
+                        <div class="divContent">
+                            <h2>Numerical experimentation:</h2>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <p style="color:#cc3300;">
+                            Use of mathematical model to understand flame characteristics under certain controlled conditions. 
+                            It mimics a real-life situation.
+                            </p>
+                            </span>
+                            </span>
+                            <img src="../images/picture21.jpg" height="300" width="600" align="center">
+                            <br><br>
+                            <h2>Necessary tools</h2>
+                            <br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <b>Elements of mathematical model:</b>
+                            <br>
+                            <li>Equations (also called <b>governing equations</b>) that describe behavior of the system under consideration.</li><br>
+                            <li>Auxiliary equations (also called <b>boundary conditions</b>) that describe how the system can be modified.</li><br>
+                            <li>Methods and algorithms to combine the above two elements in order to obtain numeric data for a given set of conditions.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+                            <img src="../images/picture22.jpg" height="200" width="600px" align="center">
+                            <br><br>
+                            <h2>Definition of the problem</h2>
+                            <br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <b>Importance of laminar premixed flame:</b>
+                            <li>Simplest of the flame configurations</li>
+                            <li>Essential for understanding of practical combustion systems</li>
+                            <li>Model problem for combustion</li>
+                            </ul>
+                            </span>
+                            </span>
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <b>Typical configuration:</b>
+                            <img src="../images/picture23.jpg" height="100" width="400px" align="center">
+                            <li>Flame is situated in a flowing mixture of methane fuel and atmospheric air.</li>
+                            <li>Far away from the flame to the left, no reaction occurs -> cold boundary.</li>
+                            <li>Reactions and heat release occurs in a narrow region.</li>
+                            <li>To the right, only products exist at high temperatures.</li>
+                            </ul>
+                            </span>
+                            </span>
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <b>Problem Definition</b>
+                            <li>Model the behavior of flame in response to changes in equivalence ratio.</li>
+                            <li>Describe flame structure; calculate burning velocity at three  equivalence ratios.</li>
+                            </ul>
+                            </span>
+                            </span>
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>During the combustion process:
+                            <ul>
+                            <li>The components and heat are transported from flame zone to other locations.</li>
+                            <li>Mass diffusion and heat conduction occur predominantly near the flame.</li>
+                            </ul>
+                            </li>
+                            <br>
+                            <li>Governing equations should reflect these physical processes in terms of
+                            <ul> 
+                            <li>Physical laws of motion (Newton's laws)</li> 
+                            <li>Energy (first law of thermodynamics)</li>
+                            <li>Mass conservation</li>
+                            </ul>
+                            </li>
+                            <br>
+                            <li>
+                            <b>Our task:</b>
+                            <ul>
+                            <li>Apply these principles to a reacting flow process.</li>
+                            <li>Take into account the simplifying assumptions.</li>
+                            <li>Build a model of the laminar premixed flame.</li>
+                            </ul>
+                            </li>
+                            </ul>
+                            </span>
+                            </span>
+
+                            <br><br>
+            			</div>
+                    </div><br>
+                </section>
+
+                <section id="experiment-article-section-3">
+                    <div class="icon" id="experiment-article-section-3-icon">
+                    <!-- Enclose the icon image of your lab. -->
+                    <img src="../images/objective.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-3-heading">
+                        Theory
+                    </div>
+
+                    <div class="content" id="experiment-article-section-3-content">
+			            <div claass="divContent">				
+			                <h2>Mathematical model of a premixed flame</h2>
+                            <br>
+
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <b>Assumptions:</b>
+                            <li>One dimensional steady subsonic flow.</li>
+                            <li>Properties of component gases depend upon temperature.</li>
+                            <li>Ideal gas behavior is valid for all the gases.</li> 
+                            <li>Flame is freely propagating.</li>
+                            <li>No heat losses by radiation occur from the flame.</li>
+                            </ul>
+                            </span>
+                            </span>
+
+                            <br>
+
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <b>Model:</b>
+                            <li>Governing equations of continuity, momentum, energy, and species are written.</li>
+                            <li>Chemical kinetics is modeled using a readymade mechanism called GRI2.11 [1].</li>
+                            </ul>
+                            </span>
+                            </span>
+                            <img src="../images/picture24.jpg" height="250" width="700" align="center">
+
+                            <br>
+
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <b>Boundary conditions:</b>
+                            <li>
+                            Inflow boundary:
+                            <ul>
+                            <li>Known inlet velocity</li>
+                            <li>Known temperature</li>
+                            <li>Known mass fractions of CH4, O2, and N2</li>
+                            </ul>
+                            </li>
+                            <br>
+                            <li>
+                            Outflow boundary:
+                            <ul>
+                            <li>Communicates with the ambient</li>
+                            <li>Pressure is 101325 Pa</li>
+                            </ul>
+                            </li>
+                            </ul>
+                            </span>
+                            </span>
+
+                            <br>
+
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <p style="color:#cc3300;">
+                            <b>Important Terms:</b>
+                            <img src="../images/pic3.jpg" height="400" width="650" align="center">
+
+                            <br>
+
+                            <b>General Equations:</b>
+                            <img src="../images/pic4.jpg" height="300" width="500" align="center">
+                            <img src="../images/pic5.jpg" height="400" width="800" align="center">
+                            </p>
+                            </span>
+                            </span>
+            			</div>
+		    </div>
+		</section>
+
+                <section id="experiment-article-section-4">
+                    <div class="icon" id="experiment-article-section-4-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/procedure.jpg"></div>
+
+                    <div class="heading" id="experiment-article-section-4-heading">
+                        Procedure
+                    </div>
+
+                    <div class="content" id="experiment-article-section-4-content">
+                        <div class="divContent">
+                            <h2>Experimental setup</h2>
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <p style="color:#cc3300;">
+                            Employ <b>computational fluid dynamics</b> methods to devise a solution algorithm.
+                            </p>
+                            </span>
+                            </span>
+                            <br>
+                            <img src="../images/pic99.jpg" height="400" width="350" align="center">
+                            <br>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-5">
+                    <div class="icon" id="experiment-article-section-5-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/sim.jpg"></div>
+
+                    <div class="heading" id="experiment-article-section-5-heading">
+                        Results
+                    </div>
+
+                    <div class="content" id="experiment-article-section-5-content">
+                        <div class="divContent">
+                            <h2>Test Conditions</h2>
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>Fuel: methane (CH<sub>4</sub>)
+                            Methane is the simplest of the hydrocarbon fuels.
+                            It is part of many other fuels including the natural gas.
+                            Operating conditions:
+                            </li><br>
+                            </ul>
+                            </span>
+                            </span>
+                            <br>
+            			</div>
+    	    	    </div>
+                </section>
+
+                <section id="experiment-article-section-6">
+                    <div class="icon" id="experiment-article-section-6-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/simulation.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-6-heading">
+                        Simulation
+                    </div>
+
+                    <div class="content" id="experiment-article-section-6-content">
+                        <div class="divContent">
+                            <h2>Mathematical model of a premixed flame</h2>
+                            <br>
+
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <b>Assumptions:</b>
+                            <li>One dimensional steady subsonic flow.</li>
+                            <li>Properties of component gases depend upon temperature.</li>
+                            <li>Ideal gas behavior is valid for all the gases.</li> 
+                            <li>Flame is freely propagating.</li>
+                            <li>No heat losses by radiation occur from the flame.</li>
+                            </ul>
+                            </span>
+                            </span>
+
+                            <br>
+
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <b>Model:</b>
+                            <li>Governing equations of continuity, momentum, energy, and species are written.</li>
+                            <li>Chemical kinetics is modeled using a readymade mechanism called GRI2.11 [1].</li>
+                            </ul>
+                            </span>
+                            </span>
+                            <img src="../images/picture24.jpg" height="250" width="700" align="center">
+
+                            <br>
+
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <b>Boundary conditions:</b>
+                            <li>
+                            Inflow boundary:
+                            <ul>
+                            <li>Known inlet velocity</li>
+                            <li>Known temperature</li>
+                            <li>Known mass fractions of CH<sub>4</sub>, O<sub>2</sub>, and N<sub>2</sub></li>
+                            </ul>
+                            </li>
+                            <br>
+                            <li>
+                            Outflow boundary:
+                            <ul>
+                            <li>Communicates with the ambient</li>
+                            <li>Pressure is 101325 Pa</li>
+                            </ul>
+                            </li>
+                            </ul>
+                            </span>
+                            </span>
+
+                            <br>
+
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <p style="color:#cc3300;">
+                            <b>Important Terms:</b>
+                            <img src="../images/pic3.jpg" height="400" width="650" align="center">
+
+                            <br>
+
+                            <b>General Equations:</b>
+                            <img src="../images/pic4.jpg" height="300" width="500" align="center">
+                            <img src="../images/pic5.jpg" height="400" width="800" align="center">
+                            </p>
+                            </span>
+                            </span>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-7">
+                    <div class="icon" id="experiment-article-section-7-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/eval.jpg"></div>
+
+                    <div class="heading" id="experiment-article-section-7-heading">
+                        Conclusions
+                    </div>
+
+                    <div class="content" id=
+                    "experiment-article-section-7-content">
+                        <div class="divContent">
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>Fuel consumption, heat release, and rise in temperature occur in a narrow region.</li><br> 
+                            <li>NO and N<sub>2</sub>O concentration increases with temperature. Thus, NO is concentrated in high temperature regions post-flame and can be reduced by controlling the rate of temperature rise.</li><br>
+                            <li>CO profile changes drastically from lean to rich compositions and its concentration remains high even in the post-flame region for rich mixtures.</li><br>
+                            <li>Burning velocity first increases from lean to stoichiometric becomes maximum at F ~ 1.1 and decreases continuously thereafter. Moreover, computed burning velocity matches well with the experimental data.</li><br>
+                            <li>Heat release rate also follows the same trend; starts low from lean, increases for stoichiometric, and reduces for rich flame.</li><br>   
+                            <li>Numerical experimentation complements the physical experiments. One cannot rely on either of them while studying a certain problem.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experiment-article-section-8">
+                    <div class="icon" id="experiment-article-section-8-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/feedback.jpg"></div>
+
+                    <div class="heading" id=
+                    "experiment-article-section-8-heading">
+                        FAQs
+                    </div>
+
+                    <div class="content" id="experiment-article-section-8-content">
+                        <div class="divContent">
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>After observing the computed flame structure and flame images from previous physical experiments, is it possible to demarcate different zones of the flame?</li><br>
+                            <li>Will the chemical kinetics depend upon size of the combustor? Why?</li><br>
+                            <li>Can you identify similarities and differences in physical and numerical experimentation?</li><br>
+                            <li>How they can compliment each other?</li><br>
+                            </ul>
+                            </span>
+                            </span>                            
+            			</div>
+                    </div>
+                </section>
+		
+		<section id="experiment-article-section-9">
+                    <div class="icon" id="experiment-article-section-9-icon">
+                    <!-- Enclose the icon image of your lab.-->
+                    <img src="../images/books.jpg"></div>
+                    <div class="heading" id="experiment-article-section-9-heading">
+			References                        
+                    </div>
+                    <div class="content" id="experiment-article-section-9-content">
+            			<div class="divContent">
+                            <br><br>
+                            <span style="font-family: calibri;">
+                            <span style="font-size: 1.5em;">
+                            <ul style="color:#cc3300;">
+                            <li>http://diesel.me.berkeley.edu/~gri_mech/new21/version21/text21.html</li><br>
+                            <li>J. Warnatz, U. Maas, and R.W. Dibble, "Combustion: Physical and Chemical Fundamentals, Modeling and Simulation, Experiments, Pollutant Formation", <i>Springer-Verlag</i>, 2001.</li><br>
+                            <li>T. Poinsot and D. Veynante, "Theoretical and Numerical Combustion", <i>R.T. Edwards</i>, 2005.</li><br>
+                            </ul>
+                            </span>
+                            </span>
+            			</div>
+        		    </div>
+		</section>
+            </div>
+        </article>
+	
+
+        <footer  class="footer">
+            <!-- Put the content here -->
+            <div style="margin-left:40%; margin-right:40% ">
+            <a href="../license/index.html" target="_blank" style="margin:auto"> Licensing Terms </a>
+            </div>
+      </footer> 
+    </div>
+</body>
+</html>
